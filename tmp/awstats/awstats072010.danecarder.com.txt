@@ -1,0 +1,416 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201007 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2552                
+POS_VISITOR 3550                
+POS_DAY 6153                
+POS_DOMAIN 7032                
+POS_LOGIN 7292                
+POS_ROBOT 7447                
+POS_WORMS 7967                
+POS_EMAILSENDER 8098                
+POS_EMAILRECEIVER 8241                
+POS_SESSION 8317                
+POS_SIDER 8514                
+POS_FILETYPES 8738                
+POS_OS 8913                
+POS_BROWSER 9085                
+POS_SCREENSIZE 9347                
+POS_UNKNOWNREFERER 9421                
+POS_UNKNOWNREFERERBROWSER 9834                
+POS_ORIGIN 10165               
+POS_SEREFERRALS 10308               
+POS_PAGEREFS 10476               
+POS_SEARCHWORDS 10754               
+POS_KEYWORDS 11069               
+POS_MISC 2215                
+POS_ERRORS 11235               
+POS_CLUSTER 7148                
+POS_SIDER_404 11332               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20100801000217 10734 2263133 28507083973
+FirstTime 20100701001312
+LastTime 20100731234716
+LastUpdate 20100823211911 10734 0 10728 5 0
+TotalVisits 103                 
+TotalUnique 59                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 67                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 23 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 104 124 319828 24 28 56024
+1 98 98 140826 21 27 26708
+2 103 103 157466 21 25 34223
+3 99 99 142263 21 25 13926
+4 97 97 139389 25 44 37044
+5 109 115 513445 29 31 56575
+6 105 120 301953 6 7 5627
+7 103 163 728922 2 4 12322
+8 107 215 1125820 10 11 12374
+9 160 434 5632694 13 25 49694
+10 122 327 2978375 8 9 12489
+11 106 106 152322 9 15 13922
+12 122 264 1696745 22 64 121632
+13 105 105 150885 8 13 96802
+14 111 187 945448 6 22 164930
+15 150 368 4143344 3 3 21807
+16 155 373 4338427 6 8 1567
+17 107 225 1176688 4 5 12372
+18 108 171 1015463 11 28 271507
+19 113 232 1351314 10 83 493058
+20 132 223 2196217 4 4 12381
+21 108 168 739755 4 7 63483
+22 110 247 1557826 16 19 16736
+23 103 103 162352 25 45 21726
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 67
+98.211.14.94 2424 2440 3678863 20100731234716
+99.5.95.169 50 142 3541267 20100703092213
+68.52.89.162 47 205 3602320 20100722161540
+24.99.35.72 35 118 2645773 20100714153455
+68.52.162.49 30 180 2627012 20100716084538
+71.228.247.61 16 142 1348848 20100727120401
+68.53.70.105 16 146 2102092 20100729105448
+205.251.121.5 7 13 366871 20100717052054
+208.80.193.39 6 6 8622 20100727191438
+38.105.83.6 6 10 31172 20100723000643
+74.240.233.19 5 64 550163 20100710222336
+69.58.178.31 5 5 21526 20100709233612
+166.137.9.9 5 68 867452 20100720181946
+68.53.112.37 5 65 602437 20100714152445
+208.80.193.121 4 4 5748 20100723140726
+38.99.97.201 4 4 24658 20100727142828
+68.53.11.35 4 64 599762 20100722154557
+68.53.60.239 3 64 698376 20100713092506
+98.87.6.52 3 79 585222 20100718081349
+38.99.96.57 3 3 13766 20100718062210
+32.162.189.226 3 64 661454 20100713094438
+174.50.220.163 3 63 586460 20100719090641
+74.179.212.69 3 63 588870 20100710211818
+208.80.193.42 3 3 4311 20100715081436
+184.73.16.14 2 2 1437 20100707063650
+95.26.246.73 0 1 169 
+95.27.124.105 0 1 1164 
+69.63.181.251 0 1 52525 
+208.80.193.34 1 1 1437 20100716165634
+74.52.245.146 1 1 1437 20100708021717
+207.46.12.66 1 16 144487 20100725063517
+66.192.133.233 2 62 583785 20100730073025
+71.54.247.82 2 61 609658 20100715195708
+174.50.220.210 1 1 1437 20100713092336
+208.80.193.27 2 2 2874 20100719104928
+98.250.155.86 2 62 583785 20100712163051
+74.222.2.74 1 1 1437 20100716030046
+70.237.142.58 2 62 583785 20100728170102
+207.46.195.211 1 16 144487 20100723105354
+95.25.230.166 0 1 3936 
+208.80.193.35 1 1 1437 20100704221343
+207.46.12.19 1 19 277304 20100721225155
+208.80.193.38 1 1 1437 20100709194812
+72.11.87.44 1 1 1437 20100725133449
+95.26.61.53 0 1 1036 
+88.214.206.85 1 1 1437 20100701010501
+69.138.36.178 1 17 149267 20100717000844
+208.80.193.40 2 2 2874 20100718012122
+75.151.130.109 2 62 583785 20100702100726
+95.26.140.72 0 3 19342 
+208.80.193.30 1 1 1437 20100726103049
+71.228.193.246 1 17 197012 20100712125140
+208.80.194.29 1 1 1437 20100731191328
+89.178.205.11 0 1 931 
+99.5.95.50 1 17 149267 20100709201200
+208.80.194.39 2 2 2874 20100730112159
+65.105.181.42 2 62 583785 20100720141035
+204.68.97.131 1 1 1437 20100701034433
+72.11.87.42 1 1 1437 20100707025854
+72.94.249.37 1 1 1437 20100712083547
+74.179.198.201 2 62 583785 20100722224126
+184.73.68.164 2 2 2874 20100721020722
+95.25.170.114 0 2 1724 
+174.129.117.216 1 1 1437 20100728190429
+74.70.224.113 1 59 443455 20100721172451
+95.24.166.7 1 6 116185 20100704151849
+69.180.243.247 1 17 197012 20100731141016
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20100701 98 98 140826 5
+20100702 51 203 4114160 3
+20100703 3 3 13766 2
+20100704 2 17 145924 2
+20100706 1 1 1437 1
+20100707 56 56 79035 4
+20100708 91 91 130767 3
+20100709 84 116 478454 4
+20100710 104 223 1276985 3
+20100711 98 98 140826 2
+20100712 101 177 921623 5
+20100713 130 326 3344196 6
+20100714 136 279 3386162 3
+20100715 102 221 1335507 4
+20100716 99 115 337838 4
+20100717 105 127 655527 4
+20100718 102 178 736940 4
+20100719 101 162 779811 3
+20100720 106 229 1602955 5
+20100721 98 174 858711 4
+20100722 150 428 4925256 5
+20100723 104 123 315048 4
+20100724 96 96 137952 1
+20100725 99 114 285313 4
+20100726 97 97 139389 2
+20100727 115 241 1500566 4
+20100728 98 158 721737 3
+20100729 113 243 2241481 3
+20100730 99 159 723174 3
+20100731 98 114 336401 3
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+us 2735 4650 31661843
+ru 1 16 144487
+gb 1 1 1437
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+googlebot 235 1203589 20100731025438 54
+slurp 109 213677 20100727095514 7
+bot[+:,\.\;\/\\-] 40 40952 20100726162551 21
+spider 28 41986 20100731112309 10
+robot 12 10016 20100727203612 6
+msnbot 10 16770 20100722180656 5
+unknown 9 234 20100727142816 9
+no_user_agent 4 5748 20100730235846 0
+jeeves 2 1463 20100724184935 1
+msnbot\-media 2 52551 20100715214542 1
+crawl 2 1463 20100725081321 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 26
+5mn-15mn 3
+15mn-30mn 1
+30s-2mn 6
+2mn-5mn 5
+0s-30s 62
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 5
+/ 2498 3588189 97 70
+/paintings 209 2275341 3 19
+/bio 18 91530 3 7
+/contact 8 21400 0 6
+/home 4 5748 0 1
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 516 1125858 0 0
+html 2498 3588189 0 0
+jpg 1134 15212794 0 0
+js 170 8082493 0 0
+Unknown 239 2394019 0 0
+gif 110 1404414 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 12
+winlong 66
+winxp 1075
+win2000 79
+linuxubuntu 1
+win98 1
+linuxfedora 5
+linux 5
+winme 1
+macosx 535
+win2003 61
+Unknown 2445
+win2008 393
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 16
+msie8.0 1102
+msie6.0 144
+firefox3.8 1
+firefox1.0 1
+mozilla 7
+chrome 81
+msie7.0 181
+firefox3.6.6 189
+firefox3.6.3 1
+firefox3.5.2 17
+curl 2
+firefox3.0.19 61
+firefox3.5.3 5
+Unknown 2438
+firefox1.5.0.1 2
+safari 435
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20100727142828
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20100719201317
+panscient.com 20100717052056
+page_test_larbin2.6.3@unspecified.mail 20100716030046
+Simon/2053_CFNetwork/454.9.7_Darwin/10.4.0_(i386)_(iMac7%2C1) 20100731234716
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20100719201317
+panscient.com 20100717052056
+page_test_larbin2.6.3@unspecified.mail 20100716030046
+Simon/2053_CFNetwork/454.9.7_Darwin/10.4.0_(i386)_(iMac7%2C1) 20100731234716
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2617 2624
+From1 0 0
+From2 12 12
+From3 7 7
+From4 101 2024
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 11 11
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://www.facebook.com/l.php 4 4
+http://www.bing.com/search 2 2
+http://www.steveleslie.com/spl.nsf/index/recommendedwebsites 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 7
+dane+carder 5
+dane+carder+nashville 1
+dane+artist+nashville 1
+alternative+art+nashville 1
+carder+painting 1
+%f2%e0%e8%eb%e0%ed%e4 1
+battle+of+nashville+painting 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 10
+carder 7
+dane 7
+nashville 4
+painting 2
+battle 1
+of 1
+alternative 1
+art 1
+%f2%e0%e8%eb%e0%ed%e4 1
+artist 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+500 79 0
+404 20 40480
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 16
+/text/javascript 1 -
+/mm/dd/yy 1 -
+/1u/a7 1 -
+/*/* 1 -
+/1u/3q 1 -
+/next/prev 2 -
+/js/text/html 1 -
+/text/plain 1 -
+/1u/4m 1 -
+/css/ 2 -
+/application/x-www-form-urlencoded 1 -
+/4o/x-7h-3u-7g 1 -
+/a 2 -
+/text/html 2 -
+/js/text/javascript 1 -
+/js/text/plain 1 -
+END_SIDER_404

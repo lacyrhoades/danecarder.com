@@ -1,0 +1,51 @@
+Return-path: <krislattimore@yahoo.com>
+Envelope-to: dane@danecarder.com
+Delivery-date: Mon, 29 Mar 2010 14:06:44 -0500
+Received: from web112620.mail.gq1.yahoo.com ([98.137.27.200]:30382)
+	by cayenne.websitewelcome.com with smtp (Exim 4.69)
+	(envelope-from <krislattimore@yahoo.com>)
+	id 1NwKIN-00060f-LU
+	for dane@danecarder.com; Mon, 29 Mar 2010 14:06:43 -0500
+Received: (qmail 60518 invoked by uid 60001); 29 Mar 2010 19:06:39 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024; t=1269889599; bh=wT51fVVmpU5foYpqCpa09kLuWKh+qIbm8y8AoRXI8jE=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Reply-To:Subject:To:MIME-Version:Content-Type; b=Jx0C6eU8QLxOj9l39obAdA8Rrv7uhOZEcc6MIuLJo74+ERcdub08ZfCGIf9jc2fXlOByLMkEPFB/vZLsqYoLadZYIrRdKguMhpbvZS32xjJohc4BU2jDzlVIoPZz3k/ow1xbR6/2UHywmZwfKZktBcSYkhrB332jotvJPkgX3W0=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.com;
+  h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Reply-To:Subject:To:MIME-Version:Content-Type;
+  b=H3YSvAR3UcmcUo1oRNAzH/8qwo2m4OALIsPOId2+VA4jhO/rKsiU3Ev/PxeQjEMcusiqUSVOdUAT5J3rBkOtmgW7e43EDb7dKRs0pjX66A5Knyg+AGD/185WzcfVU+p7M7uB1dPhPBSWZiLmqQ93PjDbbG9oNo5+nGqPLGTVuPg=;
+Message-ID: <748265.59899.qm@web112620.mail.gq1.yahoo.com>
+X-YMail-OSG: LyFGc_sVM1kM4weYDsN8JAjo1Qm5PR6_JaDte03fZUF.4e7
+ iPSU71wteVoHSiDjTIFTv5lEgPfNoHosQ20DV5NUsMq4mo6yvFVzqar2m8IH
+ mjg0WiVCA6A2n8nF4QiB9WOHMBnFb5vrCo13MXEx3m693uPXCiGR32wpYvEn
+ REa06JQSVTV_3FZJTdmfAH.1rcfAV8azDT6YDf120OecD5f1Sc_WyiH565_L
+ RHMHQVVlqb40x7yZMB03luie0LInRophX.4ic2ViJKoYjlkPYxvkTrXdBQK4
+ Of4CEsICbs_6Vmv9GNBPeMFceNNJr9lKnDEcdKRHHxBn8zRscCMJwWSfpvGm
+ IEzaLmkX9vFoOr1I-
+Received: from [98.87.5.84] by web112620.mail.gq1.yahoo.com via HTTP; Mon, 29 Mar 2010 12:06:39 PDT
+X-Mailer: YahooMailRC/324.3 YahooMailWebService/0.8.100.260964
+Date: Mon, 29 Mar 2010 12:06:39 -0700 (PDT)
+From: Kris Lattimore <krislattimore@yahoo.com>
+Reply-To: Kris Lattimore <krislattimore@yahoo.com>
+Subject: Kris Lattimore, Book
+To: krislattimore@yahoo.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="0-456782887-1269889599=:59899"
+
+--0-456782887-1269889599=:59899
+Content-Type: text/plain; charset=us-ascii
+
+Continuing the adventure down all avenues of artistic possibility, I have published a book of my recent work. It is part and parcel to the culmination of the last few years but more than that the book is legal tender to the promise of progress. Thank you all for your interest and your support. It means more to me than you think. 
+
+View my book at Blurb through this link:
+http://www.blurb.com/bookstore/invited/747006/86152bae2d034fbb485997fd4e7c5f63
+
+I wish you all the best and hope this finds you happy, healthy and warm. 
+
+Thank you a grillion times!
+Kris
+
+--0-456782887-1269889599=:59899
+Content-Type: text/html; charset=us-ascii
+
+<html><head><style type="text/css"><!-- DIV {margin:0px;} --></style></head><body><div style="font-family:arial,helvetica,sans-serif;font-size:10pt;color:#0000bf;"><div>Continuing the adventure down all avenues of artistic possibility, I have published a book of my recent work. It is part and parcel to the culmination of the last few years but more than that the book is legal tender to the promise of progress. Thank you all for your interest and your support. It means more to me than you think. <br><br>View my book at Blurb through this link:<br><a href="http://www.blurb.com/bookstore/invited/747006/86152bae2d034fbb485997fd4e7c5f63" target="_blank"><span class="yshortcuts" id="lw_1269888503_1">http://www.blurb.com/bookstore/invited/747006/86152bae2d034fbb485997fd4e7c5f63</span></a><br><br>I wish you all the best and hope this finds you happy, healthy and warm. <br><br>Thank you a grillion times!<br>Kris<br></div>
+</div></body></html>
+--0-456782887-1269889599=:59899--

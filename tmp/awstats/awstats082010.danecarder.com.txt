@@ -1,0 +1,461 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201008 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2536                
+POS_VISITOR 8209                
+POS_DAY 11903               
+POS_DOMAIN 3375                
+POS_LOGIN 3751                
+POS_ROBOT 3906                
+POS_WORMS 4354                
+POS_EMAILSENDER 4485                
+POS_EMAILRECEIVER 4628                
+POS_SESSION 12760               
+POS_SIDER 12968               
+POS_FILETYPES 4763                
+POS_OS 4958                
+POS_BROWSER 5120                
+POS_SCREENSIZE 5423                
+POS_UNKNOWNREFERER 5497                
+POS_UNKNOWNREFERERBROWSER 5980                
+POS_ORIGIN 6305                
+POS_SEREFERRALS 6450                
+POS_PAGEREFS 6618                
+POS_SEARCHWORDS 6976                
+POS_KEYWORDS 7249                
+POS_MISC 2199                
+POS_ERRORS 7426                
+POS_CLUSTER 3607                
+POS_SIDER_404 7560                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20100901000158 2 140 31326044432
+FirstTime 20100801000217
+LastTime 20100831235056
+LastUpdate 20100902001435 2 0 1 0 0
+TotalVisits 147                 
+TotalUnique 77                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 99                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 22 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 112 138 874113 6 9 37401
+1 110 171 815213 6 23 36208
+2 109 110 209158 9 22 26203
+3 113 118 183145 9 25 62700
+4 108 108 155196 7 23 55798
+5 106 106 152322 12 24 71821
+6 111 111 173848 20 48 150990
+7 113 389 4855725 7 16 9869
+8 119 502 5580560 17 25 192329
+9 118 208 1078818 13 19 47441
+10 126 341 2625191 12 15 44841
+11 129 333 2740409 14 20 8484
+12 118 150 504251 49 49 81083
+13 127 389 3187717 6 12 30602
+14 119 239 1353224 10 23 75765
+15 156 475 5325171 5 8 12440
+16 132 323 2721248 89 102 202520
+17 168 613 6846778 12 16 51358
+18 118 196 1032071 5 6 21858
+19 174 273 4364020 13 13 27707
+20 115 323 1611987 6 6 25962
+21 214 507 9034066 11 13 20576
+22 121 238 1643009 10 11 25345
+23 112 127 305232 8 21 76144
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+us 3021 6264 55298894
+in 6 109 991048
+tw 5 5 7185
+de 3 3 4311
+jp 2 2 2874
+cn 2 2 2874
+kr 2 2 2874
+ru 2 36 474316
+fr 2 62 583785
+lv 1 1 1437
+lu 1 1 1437
+hk 1 1 1437
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+slurp 146 270905 20100826063324 10
+googlebot 142 459128 20100831221712 37
+bot[+:,\.\;\/\\-] 44 80200 20100831182735 15
+spider 41 75116 20100831092134 11
+msnbot 12 23119 20100822063950 6
+robot 8 5852 20100831224111 4
+unknown 6 156 20100823191244 6
+msnbot\-media 3 53988 20100809142420 1
+crawl 2 1463 20100806145516 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 1095 2525474 0 0
+png 92 107588 0 0
+html 2690 3903376 0 0
+js 342 16081752 0 0
+jpg 1726 27606054 0 0
+Unknown 358 3829003 0 0
+gif 185 3319225 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+winlong 235
+winxp 989
+win2000 91
+linuxfedora 5
+winvista 1
+linux 1
+winme 2
+macosx 2271
+win2003 26
+Unknown 2581
+win2008 286
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 18
+msie6.0 86
+firefox3.6 72
+chrome 19
+firefox3.5.4 167
+firefox3.5.2 526
+firefox3.5.3 5
+firefox3.0.5 2
+msie8.0 641
+mozilla 8
+firefox1.0 1
+netscape5.0 1
+msie7.0 435
+firefox3.0.6 1
+firefox2.0.0.4 1
+Unknown 2571
+firefox3.0.19 138
+safari 1464
+firefox3.6.8 350
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Simon/2053_CFNetwork/454.9.8_Darwin/10.4.0_(i386)_(iMac7%2C1) 20100831235056
+Mozilla/5.0_(en-US) 20100827063653
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20100823191333
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20100822024035
+Simon/2053_CFNetwork/454.9.7_Darwin/10.4.0_(i386)_(iMac7%2C1) 20100825063140
+Mozilla/5.0_Firefox/3.0.5 20100826054418
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Simon/2053_CFNetwork/454.9.8_Darwin/10.4.0_(i386)_(iMac7%2C1) 20100831235056
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20100822024035
+Simon/2053_CFNetwork/454.9.7_Darwin/10.4.0_(i386)_(iMac7%2C1) 20100825063140
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2707 2714
+From1 1 1
+From2 27 27
+From3 14 14
+From4 299 3732
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 26 26
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://www.facebook.com/l.php 5 5
+http://hermansjourney.com/links/ 5 5
+http://www.sitetalk-network.eu 1 1
+http://www.ihre-werbung-im-internet.com 1 1
+http://www.bing.com/search 1 1
+http://www.blitz-news.eu 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+dane+carder 24
+dane+carder+in+nashville+tn 2
+%ea%ee%ed%f4%e8%f1%ea%ee%e2%e0%ed%ed%fb%e5+%e0%e2%f2%ee%ec%ee%e1%e8%eb%e8 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 7
+carder 26
+dane 26
+nashville 2
+tn 2
+in 2
+%ea%ee%ed%f4%e8%f1%ea%ee%e2%e0%ed%ed%fb%e5 1
+%e0%e2%f2%ee%ec%ee%e1%e8%eb%e8 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+401 3 45650
+302 5 107248
+500 6 9500
+301 1 0
+404 130 263120
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 11
+/phpmyadmin/scripts/setup.php 1 http://DANECARDER.COM/phpmyadmin/scripts/setup.php
+/uploads/.png 1 http://danecarder.com/paintingCMS/new
+/paintingsCMS 1 -
+/css/ 4 -
+/CMS 2 -
+/COPYRIGHT.php 1 
+/administrator/index.php 81 -
+/uploads/thumbnails/.png 1 http://danecarder.com/paintingCMS/new
+/wp-login.php 36 -
+/paintingcms 1 -
+/painingCMS 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 99
+98.211.14.94 2584 3096 12448347 20100831235056
+69.138.36.178 109 524 10157889 20100830174850
+69.180.243.198 79 280 6398719 20100825215035
+173.165.167.94 36 240 3884263 20100820154523
+72.242.184.210 15 85 1542579 20100827171715
+69.245.57.128 15 75 656116 20100825203445
+98.87.18.106 15 86 1462140 20100829172441
+74.249.212.12 12 138 1345160 20100824171122
+70.148.114.161 12 240 2104440 20100826133831
+67.108.187.68 11 134 1487875 20100823100510
+170.141.177.38 11 209 1685971 20100812152458
+64.134.178.18 8 76 1082005 20100810165319
+208.80.194.30 7 7 10059 20100824230740
+98.185.232.157 7 72 1014550 20100830114349
+76.240.26.158 6 70 873605 20100817130234
+206.205.45.254 6 69 918773 20100824115430
+38.99.97.201 6 6 36987 20100823191333
+98.88.122.188 6 69 848219 20100811160412
+69.58.178.28 5 5 21526 20100810061932
+170.141.177.33 5 65 601199 20100812144307
+64.134.185.17 5 68 881191 20100813172054
+38.105.83.11 5 10 27949 20100819032253
+117.196.72.138 4 75 597024 20100829074508
+68.32.111.209 4 66 784938 20100810134409
+98.193.205.204 3 63 588870 20100808193906
+208.80.194.31 1 1 1437 20100829043114
+95.25.11.121 0 2 30584 
+208.80.194.37 1 1 1437 20100816134328
+95.26.112.128 1 2 11061 20100830211945
+125.230.64.98 1 1 1437 20100805143232
+74.52.245.146 1 1 1437 20100817055132
+216.104.15.134 0 1 69621 
+96.240.34.84 3 63 588870 20100818134034
+66.220.153.248 0 1 52525 
+91.214.45.239 1 1 1437 20100830193036
+67.18.5.149 1 1 1437 20100827063653
+95.27.184.229 0 2 53518 
+208.80.194.32 2 2 2874 20100822041118
+95.25.11.85 0 2 5287 
+208.80.194.55 1 1 1437 20100830191729
+207.46.195.210 1 16 145725 20100822234728
+98.240.117.40 3 135 661454 20100808205906
+89.178.198.56 0 2 30777 
+211.43.152.54 2 2 2874 20100826054418
+208.80.194.36 1 1 1437 20100815040510
+220.181.27.24 1 1 1437 20100818132757
+150.70.75.165 2 2 2874 20100824170635
+208.80.194.28 2 2 2874 20100827192231
+87.118.82.104 1 1 1437 20100824032512
+95.26.89.230 0 1 1164 
+95.26.147.244 0 1 993 
+216.104.15.142 0 2 27864 
+95.26.253.141 0 3 70907 
+208.80.194.27 2 2 2874 20100813184300
+68.168.105.56 1 1 1437 20100811193530
+208.80.194.26 1 1 1437 20100819090651
+216.104.15.130 1 2 71058 20100824172235
+117.205.165.155 1 17 197012 20100803084852
+32.179.123.131 2 62 583785 20100830201149
+69.180.241.234 1 17 149267 20100817172532
+208.80.194.34 1 1 1437 20100826085448
+64.134.178.59 1 17 197012 20100826155117
+75.71.254.29 3 63 588870 20100804180412
+69.180.246.170 2 34 394024 20100831223137
+125.230.67.234 1 1 1437 20100816123226
+114.44.0.219 1 1 1437 20100809204147
+117.199.177.100 1 17 197012 20100806215732
+90.28.105.179 2 62 583785 20100831071656
+95.26.147.177 0 2 70785 
+64.235.157.234 2 2 2874 20100821170626
+208.80.194.29 2 2 2874 20100804180043
+89.178.208.70 1 2 2739 20100830211932
+95.26.59.105 0 2 21677 
+95.26.140.194 0 2 138504 
+95.25.178.151 0 1 250 
+70.35.196.129 1 1 1437 20100821195350
+58.152.200.185 1 1 1437 20100801224312
+209.51.153.38 1 1 1437 20100827075622
+205.203.134.197 3 3 12329 20100822122956
+125.230.76.133 1 1 1437 20100807113915
+95.27.184.122 0 1 1302 
+95.25.178.150 0 2 1767 
+76.26.79.147 1 17 197012 20100808101229
+67.187.98.16 2 18 198449 20100805150627
+95.26.59.114 0 2 2081 
+72.94.249.37 1 1 1437 20100802212148
+87.118.102.3 1 1 1437 20100831071344
+216.104.15.138 0 2 59692 
+38.99.96.57 2 2 12329 20100805170707
+64.202.139.182 1 17 197012 20100830082615
+94.30.133.2 1 1 1437 20100807060620
+95.26.147.8 0 1 1862 
+220.181.27.26 1 1 1437 20100811181747
+114.44.19.245 1 1 1437 20100809204154
+95.25.11.21 0 2 14863 
+95.26.16.151 0 2 94 
+89.178.208.34 0 2 14101 
+178.77.73.175 1 1 1437 20100828213431
+24.101.188.111 1 17 197012 20100821104002
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20100801 103 165 946111 3
+20100802 101 175 858814 4
+20100803 98 130 531976 3
+20100804 104 167 1098612 5
+20100805 101 117 350167 4
+20100806 83 99 314846 4
+20100807 99 99 142263 4
+20100808 105 329 1783737 5
+20100809 99 99 142263 4
+20100810 114 244 2027858 5
+20100811 118 252 2563762 5
+20100812 115 359 2303963 5
+20100813 102 165 1020580 3
+20100814 98 98 150281 2
+20100815 96 96 137952 2
+20100816 98 98 140826 3
+20100817 110 266 1900862 7
+20100818 100 160 728259 3
+20100819 103 124 243758 4
+20100820 77 166 1937524 5
+20100821 100 222 2761077 6
+20100822 112 685 9562482 5
+20100823 113 313 2496622 6
+20100824 119 434 3821499 9
+20100825 249 442 10121059 8
+20100826 86 180 1178014 6
+20100827 18 88 1546890 4
+20100828 1 1 1437 1
+20100829 31 237 2858708 8
+20100830 102 293 2594568 9
+20100831 93 185 1105702 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 32
+5mn-15mn 3
+0s-30s 90
+2mn-5mn 3
+15mn-30mn 2
+30s-2mn 16
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 13
+/ 2689 3864093 138 96
+/paintings 303 3288033 1 31
+/bio 24 122040 5 15
+/contact 9 24075 1 4
+/home 9 12933 1 1
+/dane_dev.php/sfGuardGroup 4 101180 0 0
+/paintingCMS 3 40971 0 0
+/dane_dev.php/sf_guard_user/1/edit 2 105586 0 0
+/dane_dev.php/paintingCMS 1 59277 0 0
+/dane_dev.php/sfGuardUser 1 68325 0 0
+/login 1 2407 1 0
+/paintingCMS/new 1 4176 0 0
+/dane_dev.php/ 1 39283 0 0
+END_SIDER

@@ -1,0 +1,20 @@
+/* CSS Document */
+
+* {margin: 0; padding: 0;}
+body {font: 14px Lucida Grande, Verdana, sans-serif; line-height: 1; color: #333; background: #1e1e1d;}
+
+html body a:hover {color: #666; border-bottom: 1px solid #999;}
+
+p { color:#C2C1C1; font-size: 10px; padding-bottom: 10px; line-height: 17px; padding-left: 8px; letter-spacing: .04em;}
+
+
+.details p.title { font-weight: bold; color:#C2C1C1; font-size: 12px; padding-top:25px;}
+
+.art img { padding: 20px; } 
+
+.navthumb img {padding:14px; margin-top:15px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); -moz-opacity: 0.5;}
+
+.navthumb:hover img{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100); -moz-opacity: 1;}
+
+.nav a {text-decoration: none;}
+.nav a:link, a:visited {color: #555; }

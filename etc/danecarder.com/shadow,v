@@ -1,0 +1,25 @@
+head	1.1;
+access;
+symbols;
+locks
+	dane:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2009.09.28.03.55.49;	author dane;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@dane:$1$9JjQWvhu$vudY.CDkOpZo79qYUKZ7M1:14515::::::
+@

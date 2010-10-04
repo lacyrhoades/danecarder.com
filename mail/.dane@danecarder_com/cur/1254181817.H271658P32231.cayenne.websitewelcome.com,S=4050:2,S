@@ -1,0 +1,43 @@
+Return-path: <krislattimore@yahoo.com>
+Envelope-to: dane@danecarder.com
+Delivery-date: Mon, 28 Sep 2009 18:50:17 -0500
+Received: from web112601.mail.gq1.yahoo.com ([98.137.27.181]:47435)
+	by cayenne.websitewelcome.com with smtp (Exim 4.69)
+	(envelope-from <krislattimore@yahoo.com>)
+	id 1MsPyz-0008NJ-1D
+	for dane@danecarder.com; Mon, 28 Sep 2009 18:50:17 -0500
+Received: (qmail 99084 invoked by uid 60001); 28 Sep 2009 23:50:12 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024; t=1254181812; bh=2CANaZ3EOLf9eOwKvjBaapkdU7DXeErfdbURvzrPY/U=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Reply-To:Subject:To:MIME-Version:Content-Type; b=AIAKdKlw1XodY0MHY/by+g5gghVeZES4BZmQCYLCXuS8g4sfvODRa4to+Bf6V0H5dQ/S6x8DEGst2bOWVo7doIQiPQtzwX/AYagMJ271mgfl67E19F/tkVB1/nWcoP8gupfEzK+0bTImRJZiC2ExW6TRMjY57YtsYnJVua3Pm/Y=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.com;
+  h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Reply-To:Subject:To:MIME-Version:Content-Type;
+  b=LW8M4+NVID7LiiUt5UqsgzJfQK0lAQJvlMqpTM8405uVi2VDCkjIW2GmZu+M25ZIJoxco54jaXMj1LhdDbHSn1qDvHj+FlpbNFCK+iO1HYEPPS6/BpW2L1luzOc3QfyAl1dt7kfAKD0L4ZbL4ybEP62+2ba/azh7QpRFEYxVMJc=;
+Message-ID: <842857.57245.qm@web112601.mail.gq1.yahoo.com>
+X-YMail-OSG: ni6_rqQVM1nK6YEBUwdrZMgXsvnW58Spw_Lg5JyScjzAECre8Qqt8uEasB5c8G1GZ1WV7nCoxjQiALv9WhDEbjSoNlA4pt9RHwAP4BOx8vX.Q2RKD1oiox1hv8hVgj5KWWYe2CVlnes1QQQbiaoAxPRXXiTRJqlm42eUwAwT0U3KZRsEar6rOX3axEmljNO1SQwakF7ftShPQQehNIbh4f0D73UfD6GIhI9vWDwONuwwDOj4oJym_6tx1mS1hpIuUFRXFwSLMWdM23yM8muHHLzTMidU78gVSW.UQSBt7goykYfC8lhJAIivKKKoW4Rq9JEPIdftW3.Q_etNdh5TTKGMfbY.9N4-
+Received: from [74.241.146.132] by web112601.mail.gq1.yahoo.com via HTTP; Mon, 28 Sep 2009 16:50:12 PDT
+X-Mailer: YahooMailRC/157.18 YahooMailWebService/0.7.347.3
+Date: Mon, 28 Sep 2009 16:50:12 -0700 (PDT)
+From: Kris Lattimore <krislattimore@yahoo.com>
+Reply-To: Kris Lattimore <krislattimore@yahoo.com>
+Subject: your site
+To: dane@danecarder.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="0-1969125955-1254181812=:57245"
+
+--0-1969125955-1254181812=:57245
+Content-Type: text/plain; charset=us-ascii
+
+Yo - the site looks great. Easy navigiation, great presentation of images. The font needs to be larger though on the bio and contact pages. I know my vision needs the attention of a professional but the font is very, very small. The images stand out great with the dark grey background and are presented nicely. 
+
+We're headed out of town for a week or so. Check out my site when you get the chance and let me know what you think. www.krislattimore.com. The "Uncommon Portraiture" page is getting hung up from time to time so if it does then just click again on the "Uncommon Portrait" text at the top of the page. There should be multiple thumbnails on the page once it has completely filled in. 
+
+Great work on the site, gallery, career Dane. Great work!!
+
+Kris
+
+--0-1969125955-1254181812=:57245
+Content-Type: text/html; charset=us-ascii
+
+<html><head><style type="text/css"><!-- DIV {margin:0px;} --></style></head><body><div style="font-family:arial,helvetica,sans-serif;font-size:10pt;color:#000000;"><div>Yo - the site looks great. Easy navigiation, great presentation of images. The font needs to be larger though on the bio and contact pages. I know my vision needs the attention of a professional but the font is very, very small. The images stand out great with the dark grey background and are presented nicely. <br><br>We're headed out of town for a week or so. Check out my site when you get the chance and let me know what you think. <a href="http://www.krislattimore.com">www.krislattimore.com</a>. The "Uncommon Portraiture" page is getting hung up from time to time so if it does then just click again on the "Uncommon Portrait" text at the top of the page. There should be multiple thumbnails on the page once it has completely filled in. <br><br>Great work on the site, gallery, career Dane.
+ Great work!!<br><br>Kris<br></div></div></body></html>
+--0-1969125955-1254181812=:57245--

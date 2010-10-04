@@ -1,0 +1,160 @@
+Return-path: <n-Qo_oj0roK2mqzK1MJfsN5TxV3pKH8ts5fO49KTZWiKL88CzDegzV@bounce.linkedin.com>
+Envelope-to: dane@danecarder.com
+Delivery-date: Wed, 06 Jan 2010 00:49:14 -0600
+Received: from mail15-a-ad.linkedin.com ([208.111.169.138]:56879)
+	by cayenne.websitewelcome.com with esmtp (Exim 4.69)
+	(envelope-from <n-Qo_oj0roK2mqzK1MJfsN5TxV3pKH8ts5fO49KTZWiKL88CzDegzV@bounce.linkedin.com>)
+	id 1NSPhi-00021R-9p
+	for dane@danecarder.com; Wed, 06 Jan 2010 00:49:14 -0600
+DomainKey-Signature: s=prod; d=linkedin.com; c=nofws; q=dns;
+  h=Sender:Date:From:To:Message-ID:Subject:MIME-Version:
+   Content-Type:X-LinkedIn-fbl;
+  b=fPxLmRHJXthD0WkNWjFi6nZohbKgQ1Pd5TO6puW6V0T3XPKkk9lBdBms
+   NMXPpthGtxV7lTWwDvood/4LAn49xR/OYEFFVHIGJYjc22jVRKW1NMRUy
+   Mz0qjHRZgbuqsaV;
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=linkedin.com; i=invitations@linkedin.com; q=dns/txt;
+  s=proddkim; t=1262760555; x=1294296555;
+  h=from:sender:reply-to:subject:date:message-id:to:cc:
+   mime-version:content-transfer-encoding:content-id:
+   content-description:resent-date:resent-from:resent-sender:
+   resent-to:resent-cc:resent-message-id:in-reply-to:
+   references:list-id:list-help:list-unsubscribe:
+   list-subscribe:list-post:list-owner:list-archive;
+  z=From:=20"Kris=20Lattimore=20(LinkedIn=20Invitations)"=20
+   <invitations@linkedin.com>|Sender:=20messages-noreply@bou
+   nce.linkedin.com|Subject:=20Your=20invitation=20from=20Kr
+   is=20Lattimore=20is=20about=20to=20expire|Date:=20Tue,=20
+   5=20Jan=202010=2022:49:14=20-0800=20(PST)|Message-ID:=20<
+   986993442.54743436.1262760554525.JavaMail.app@ech3-cdn09.
+   prod>|To:=20dane=20carder=20<dane@danecarder.com>
+   |MIME-Version:=201.0;
+  bh=P1xifR9liZCeHl8R3Cz4LunZ7olNT9kegjPMxSrHTzY=;
+  b=vR8RjJliDGLsM8TJA/sr/iQX9xE2d7IH2C9MSsqFwNkcGY+dO2isqhXn
+   i8EQRWTbvGgkevNlfV6jkSoG3byxtID4oYMdvU9n9E5Xf8Q2+rR5FFfbt
+   sLipUeopvmFIUxI;
+Sender: messages-noreply@bounce.linkedin.com
+Date: Tue, 5 Jan 2010 22:49:14 -0800 (PST)
+From: "Kris Lattimore (LinkedIn Invitations)" <invitations@linkedin.com>
+To: dane carder <dane@danecarder.com>
+Message-ID: <986993442.54743436.1262760554525.JavaMail.app@ech3-cdn09.prod>
+Subject: Your invitation from Kris Lattimore is about to expire
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_54743434_1552772396.1262760554521"
+X-LinkedIn-fbl: Qo_oj0roK2mqzK1MJfsN5TxV3pKH8ts5fO49KTZWiKL88CzDegzV
+
+------=_Part_54743434_1552772396.1262760554521
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+LinkedIn
+------------
+
+
+Dear dane,
+
+This is a reminder that on December 3, Kris Lattimore sent you an invitation to become part of their professional network at LinkedIn.
+
+Your invitation will expire soon! 
+
+Follow this link to accept Kris Lattimore's invitation.
+
+https://www.linkedin.com/e/isd/905420407/dNqAfNRO/
+
+Signing up is free and takes less than a minute.
+
+
+This is a reminder that on December 3, Kris Lattimore wrote:
+
+> To: dane carder [dane@danecarder.com]
+> From: Kris Lattimore [lattimorek@mail.belmont.edu]
+> Subject: Kris Lattimore wants to stay in touch on LinkedIn
+>
+> dane,
+> 
+> I'd like to add you to my professional network on LinkedIn.
+> 
+> - Kris Lattimore
+
+
+The only way to get access to Kris Lattimore's professional network is through the following link:
+
+https://www.linkedin.com/e/isd/905420407/dNqAfNRO/
+
+You can remove yourself from Kris Lattimore's network at any time.
+
+
+--------------
+
+The pending expiration of your invitation is an automatic process triggered by system maintenance. This is the last email message you will receive from LinkedIn about the expiration of this invitation from Kris Lattimore.
+
+ 
+------
+(c) 2009, LinkedIn Corporation
+
+
+------=_Part_54743434_1552772396.1262760554521
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+<html>
+  <body>
+
+  
+
+<table border="0" width="550" cellpadding="0" cellspacing="0" style="max-width:550px; border-top:4px solid #39C; font: 12px arial, sans-serif; margin: 0 auto;"><tr><td>  
+  <h1 style="color: #000; font: bold 23px arial; margin:5px 0;" >LinkedIn</h1>
+
+
+<font size="2" face="arial, helvetica, sans-serif" color="#000000">
+<p> Dear dane, </p>
+
+<p>  This is a reminder that on December 03, Kris Lattimore sent you an invitation to become part of their professional network at LinkedIn.  </p>
+
+<p>
+ Your invitation will expire soon!  Follow this link to accept Kris Lattimore's invitation. </p>
+
+<p>
+<a href="https://www.linkedin.com/e/isd/905420407/dNqAfNRO/">https://www.linkedin.com/e/isd/905420407/dNqAfNRO/</a>
+</p>
+
+<p> Signing up is free and takes less than a minute. </p>
+
+<p> This is a reminder that on December 03, Kris Lattimore sent you an invitation to become part of their professional network at LinkedIn.  <br><br> > To: dane carder [dane@danecarder.com]<br> > From: Kris Lattimore [lattimorek@mail.belmont.edu]<br> > Subject: Kris Lattimore wants to stay in touch on LinkedIn<br>
+<br>
+&gt; dane,<br>
+&gt; <br>
+&gt; I'd like to add you to my professional network on LinkedIn.<br>
+&gt; <br>
+&gt; - Kris Lattimore<br>
+
+</p>
+
+<p> The only way to get access to Kris Lattimore's professional network is through the following link: </p>
+
+<p>
+<a href="https://www.linkedin.com/e/isd/905420407/dNqAfNRO/">https://www.linkedin.com/e/isd/905420407/dNqAfNRO/</a>
+</p>
+
+<p> You can remove yourself from Kris Lattimore's network at any time. </p>
+
+<br>
+--------------
+<br>
+
+<p> The pending expiration of your invitation is an automatic process triggered by system maintenance. This is the last email message you will receive from LinkedIn about the expiration of this invitation from Kris Lattimore. </p>
+</font>
+
+
+
+
+
+  <p style="width: 550px; margin: 3px auto; font: 10px arial, sans-serif; color: #999;">&#169; 2009, LinkedIn Corporation
+
+</p>
+
+</body>
+</html>
+------=_Part_54743434_1552772396.1262760554521--

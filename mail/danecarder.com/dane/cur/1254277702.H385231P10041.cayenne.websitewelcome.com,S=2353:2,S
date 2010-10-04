@@ -1,0 +1,49 @@
+Return-path: <victorschmidt99@gmail.com>
+Envelope-to: dane@danecarder.com
+Delivery-date: Tue, 29 Sep 2009 21:28:22 -0500
+Received: from mail-gx0-f225.google.com ([209.85.217.225]:33567)
+	by cayenne.websitewelcome.com with esmtp (Exim 4.69)
+	(envelope-from <victorschmidt99@gmail.com>)
+	id 1MsovW-0002bY-45
+	for dane@danecarder.com; Tue, 29 Sep 2009 21:28:22 -0500
+Received: by gxk25 with SMTP id 25so3688687gxk.16
+        for <dane@danecarder.com>; Tue, 29 Sep 2009 19:28:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:received:received:message-id:from:to
+         :content-type:content-transfer-encoding:mime-version:subject:date
+         :x-mailer;
+        bh=yyJic7jILhURk7jul2jyYUT8B4ULEBA6ihaqV14P+/o=;
+        b=w/kSUJxxtd/etw4x3kloiGfLq/+0SAc86lFYBvq2/qfBnsL50RynnNQnFFAnaEg9p/
+         /83kPuqUGMfyO/MD24nNJ+83/e0f+2j/lMXT7M0LtPsCffPxpkBC1GYKYY90uWS5eCWH
+         u1aLeMIRBwSLKFeMYQC4wjIaRyT7h+8IUpOtg=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=message-id:from:to:content-type:content-transfer-encoding
+         :mime-version:subject:date:x-mailer;
+        b=K90AUTJOOIYM2UP6AuP++g8MLbR/ydSqsmnG3zpxeMjl4F90yHXkDb0/Jm4bnihRED
+         lkTgbLO2srkoCf1PwK3VYDxT8ok3L1HZNOvukaAYZK7Yi9umglabuF86oZOdIc97sN25
+         IUXaGUAVjFXjebHynU5dElWAxZqwLaLpWBpmg=
+Received: by 10.90.121.2 with SMTP id t2mr4072543agc.50.1254277696769;
+        Tue, 29 Sep 2009 19:28:16 -0700 (PDT)
+Received: from ?10.1.10.140? (c-69-245-54-99.hsd1.tn.comcast.net [69.245.54.99])
+        by mx.google.com with ESMTPS id 30sm3883845agc.18.2009.09.29.19.28.15
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Tue, 29 Sep 2009 19:28:16 -0700 (PDT)
+Message-Id: <8C1D08EF-2318-4C92-91C2-114773F3D1B2@gmail.com>
+From: victorschmidt99 <victorschmidt99@gmail.com>
+To: dane@danecarder.com
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v935.3)
+Subject: Email from DaneCarder.com
+Date: Tue, 29 Sep 2009 21:28:13 -0500
+X-Mailer: Apple Mail (2.935.3)
+
+Hi Dane,
+I like your website. I did not know it was "new" except from what you  
+say.
+Very poignantly written text and goes very well with the paintings.
+Bravo! and continue the passionate work!
+
+Cheers, Victor

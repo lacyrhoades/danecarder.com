@@ -1,0 +1,57 @@
+head	1.3;
+access;
+symbols;
+locks
+	dane:1.3; strict;
+comment	@# @;
+
+
+1.3
+date	2009.10.20.01.07.52;	author dane;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2009.10.11.02.46.52;	author dane;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2009.09.28.03.55.49;	author dane;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@dane:31457280
+@
+
+
+1.2
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 1
+a1 1
+dane:20971520
+@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 1
+a1 1
+dane:10485760
+@

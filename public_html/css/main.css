@@ -1,0 +1,41 @@
+/* CSS Document */
+
+* {margin: 0; padding: 0;}
+body {font-family: Lucida Grande, Verdana, sans-serif; font-size:11px; line-height: 14px; background: #1e1e1d; color:#C2C1C1;}
+
+
+p { color:#C2C1C1; font-size: 11px; padding-bottom: 10px; line-height: 17px; padding-left: 8px; letter-spacing: .04em;}
+
+a { text-decoration: none; }
+a:hover {color:#c2c1c1;}
+a:link {color:#666; text-decoration: none;} 
+a:visited {color:#666; text-decoration: none; }
+
+
+.contact a { text-decoration: none; }
+.contact a:hover {color:#c2c1c1; border-bottom: 1px solid #c2c1c1;}
+.contact a:link {color:#666; text-decoration: none;} 
+.contact a:visited {color:#666; text-decoration: none; }
+.contact p {font-size:13px;}
+
+.hr {border-bottom:1px solid #CCCCCC;}
+
+.details p.title { font-weight: bold; color:#C2C1C1; font-size: 12px; padding-top:25px;}
+.details {padding-left:50px; padding-top:225px;}
+.details p {font-size:11px}
+
+.art img { padding: 20px; } 
+
+.cms {color:#C2C1C1;}
+
+
+.nav p {font-size: 11px}
+.nav a { text-decoration: none; }
+.nav a:hover {color:#c2c1c1; border-bottom: 1px solid #c2c1c1;}
+.nav a:link {color:#666; text-decoration: none;} 
+.nav a:visited {color:#666; text-decoration: none; }
+
+div.main {width:1000px} 
+
+.bio {width: 845px; padding:20px; padding-left:60px}
+.bio p {font-size:11px; padding-top:10px;}

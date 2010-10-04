@@ -1,0 +1,40 @@
+Return-path: <cindy@cindycullen.com>
+Envelope-to: dane@danecarder.com
+Delivery-date: Sun, 27 Sep 2009 22:57:06 -0500
+Received: from cpanel64b.gzo.com ([74.86.232.128]:52835)
+	by cayenne.websitewelcome.com with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.69)
+	(envelope-from <cindy@cindycullen.com>)
+	id 1Ms7MI-0005Dx-3R
+	for dane@danecarder.com; Sun, 27 Sep 2009 22:57:06 -0500
+Received: from c-98-193-252-128.hsd1.tn.comcast.net ([98.193.252.128] helo=[192.168.2.3])
+	by cpanel64b.gzo.com with esmtp (Exim 4.69)
+	(envelope-from <cindy@cindycullen.com>)
+	id 1Ms7MD-0007H5-QL
+	for dane@danecarder.com; Sun, 27 Sep 2009 22:57:01 -0500
+From: Cindy Cullen <cindy@cindycullen.com>
+Content-Type: text/plain; charset=us-ascii; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Subject: Testing your new email address
+Date: Sun, 27 Sep 2009 22:56:59 -0500
+Message-Id: <30BC3BC2-F135-49E6-9E9E-54F08EF87B55@cindycullen.com>
+To: dane@danecarder.com
+Mime-Version: 1.0 (Apple Message framework v1076)
+X-Mailer: Apple Mail (2.1076)
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - cpanel64b.gzo.com
+X-AntiAbuse: Original Domain - danecarder.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - cindycullen.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+Hi Dane,
+
+I'm just testing to make sure that I've got your email set to forward  
+correctly.
+
+Please let me know if you get this.
+
+Cindy
