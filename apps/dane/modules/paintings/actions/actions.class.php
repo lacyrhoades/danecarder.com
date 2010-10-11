@@ -42,4 +42,30 @@ class paintingsActions extends sfActions
   {
   
   }
+  
+  public function executeGet(sfWebRequest $request)
+  {
+    $id = $request->getParameter('id');
+    $attr = $request->getParameter('attr');
+    
+    $painting = DbFinder::from('Painting')->where('Id', $id)->findOne();
+    
+    if ($attr == 'details')
+    {
+      $val = $painting->getDimensions()
+      .'<br/>'.
+      $painting->getMedium()
+      .'<br/>'.
+      $painting->getYear();
+    }
+    else
+    {
+      $function = 'get'.$attr;
+      $val = $painting->$function();
+    }
+    
+    $this->renderText($val);
+    
+    return sfView::NONE;
+  }
 }

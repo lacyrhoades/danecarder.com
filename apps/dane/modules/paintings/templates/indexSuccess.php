@@ -9,25 +9,45 @@ function mycarousel_itemFirstInCallback(carousel, item, idx, state) {
 jQuery(document).ready(function() {
     jQuery('#mycarousel').jcarousel({
         start: <?php echo $start ?>,
-      	itemFirstInCallback:  mycarousel_itemFirstInCallback
+        itemFirstInCallback:  mycarousel_itemFirstInCallback
+    });
+    
+    jQuery('a.navthumb').click(function () {
+      var src = $(this).attr('rel');
+      $('#mainArtwork').attr('src', '/images/ajax-loader.gif');
+      $.get(src,function(){
+        $('#mainArtwork').attr('src', src);
+      });
+      $('#mycarousel a img').removeClass('selected');
+      $(this).find('img').addClass('selected');
+      $.get('/paintings/get',{
+          id: $(this).attr('id'),
+          attr: 'Title'
+        },
+        function (data){
+          $('p.title').html(data);
+        });
+        
+      $.get('/paintings/get',{
+          id: $(this).attr('id'),
+          attr: 'details'
+        },
+        function (data){
+          $('p.art-details').html(data);
+        });
     });
 });
 
-function get_link(id)
-{
-  var painting = '/paintings?id='+id+'&start='+document.getElementById('start').value
-  window.location = painting;
-}
 </script>
 <table width="1000" border="0" cellspacing="0" cellpadding="0" height="600">
   <tr height="500" >
   <td width="225"valign="top" class="details"><p><a href="/home"><img src="/images/danecarder.gif" alt="Dane Carder" width="175" height="34" border="0" /></a></p>
   <br /><br />
       <p class="title"><?php echo $currentPainting->getTitle() ?></p>
-      <p><?php echo $currentPainting->getDimensions() ?><br/>
+      <p class="art-details"><?php echo $currentPainting->getDimensions() ?><br/>
         <?php echo $currentPainting->getMedium() ?><br/>
     <?php echo $currentPainting->getYear() ?></p></td>
-    <td align="center"><span class="art"><img src="/uploads/<?php echo $currentPainting->getImage() ?>" alt="art" border="0" /></span></td>
+    <td align="center"><span class="art"><img id="mainArtwork" src="/uploads/<?php echo $currentPainting->getImage() ?>" alt="art" border="0" /></span></td>
   </tr>
   <tr height="70">
     <td width="225"></td>
@@ -39,7 +59,7 @@ function get_link(id)
 <input type="hidden" name="start" id="start" value="">
 </form>
 	<?php foreach ($paintings as $painting): ?>
-		<li><a id="<?php echo $painting->getId() ?>" href="javascript:get_link(<?php echo $painting->getId() ?>)"class="navthumb" ><img src="/uploads/thumbnails/<?php echo $painting->getThumbnail() ?>" alt="<?php echo $painting->getTitle() ?>" width="40" height="40" border="<?php echo ($current_id == $painting->getId())? 3 : 0 ?>" /></a></li>
+		<li style="float: left"><a id="<?php echo $painting->getId() ?>" rel="/uploads/<?php echo $painting->getImage() ?>" href="#" onclick="return false;" class="navthumb" ><img src="/uploads/thumbnails/<?php echo $painting->getThumbnail() ?>" alt="<?php echo $painting->getTitle() ?>" width="40" height="40" class="<?php echo ($current_id == $painting->getId())? 'selected' : '' ?>" /></a></li>
 		<?php $i++ ?>
 	<?php endforeach; ?>
 	</ul>
