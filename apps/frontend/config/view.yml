@@ -6,15 +6,15 @@ default:
     content-type: text/html
 
   metas:
-    #title:        symfony project
-    #description:  symfony project
-    #keywords:     symfony, project
-    #language:     en
-    #robots:       index, follow
+    title:        'Dane Carder, Fine Art Painting :: Nashville, TN'
+    description:  'DAne Carder'
+    # keywords:     symfony, project
+    # language:     en
+    # robots:       index, follow
 
   stylesheets:    [main.css]
 
-  javascripts:    []
+  javascripts:    ['https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js']
 
   has_layout:     true
   layout:         layout
