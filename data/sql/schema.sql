@@ -1,0 +1,1 @@
+CREATE TABLE dc_painting (id SMALLINT, title VARCHAR(255), medium VARCHAR(255), dimensions VARCHAR(255), year VARCHAR(255), thumbnail VARCHAR(255), image VARCHAR(255), position SMALLINT, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL) ENGINE = INNODB;
