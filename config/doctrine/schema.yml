@@ -1,0 +1,13 @@
+dcPainting:
+  columns:
+    id: integer(2)
+    title: string(255)
+    medium: string(255)
+    dimensions: string(255)
+    year: string(255)
+    thumbnail: string(255)
+    image: string(255)
+    position: integer(2)
+  actAs:
+    Timestampable: ~
+  
