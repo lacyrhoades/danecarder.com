@@ -53,4 +53,14 @@ class defaultActions extends sfActions
 		return sfView::NONE;
 	}
 
+  public function executeBio(sfWebRequest $request)
+	{
+		
+	}
+
+  public function executeContact(sfWebRequest $request)
+	{
+		
+	}
+
 }

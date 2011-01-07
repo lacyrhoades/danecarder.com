@@ -13,7 +13,17 @@ details:
     module: default
     action: details
 
+bio:
+  url: /bio
+  param:
+    module: default
+    action: bio
+
 # default rules
+legacy_homepage:
+  url:   /home
+  param: { module: default, action: index }
+
 homepage:
   url:   /
   param: { module: default, action: index }
