@@ -1,7 +1,7 @@
 
     <table width="1000" border="0" cellspacing="0" cellpadding="0" height="600">
   <tr height="500">
-  <td width="225" valign="top" class="details"><p><a href="/home"><img src="images/danecarder.gif" alt="Dane Carder" width="175" height="34" border="0" /></a></p>
+  <td width="225" valign="top" class="details"><p><a href="/home"><img src="/images/danecarder.gif" alt="Dane Carder" width="175" height="34" border="0" /></a></p>
       <p class="title">&nbsp;</p>
     </td>
     <td><p class="contact" style="margin-left:50px; font-size:13px;">For more information<br /> 

@@ -19,6 +19,12 @@ bio:
     module: default
     action: bio
 
+contact:
+  url: /contact
+  param:
+    module: default
+    action: contact
+
 # default rules
 legacy_homepage:
   url:   /home
