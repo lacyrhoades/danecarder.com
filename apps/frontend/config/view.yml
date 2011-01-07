@@ -12,9 +12,9 @@ default:
     # language:     en
     # robots:       index, follow
 
-  stylesheets:    [main.css]
+  stylesheets:    [main.css, 'skin-rg.css']
 
-  javascripts:    ['https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js']
+  javascripts:    ['https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js', 'jquery.jcarousel.min.js']
 
   has_layout:     true
   layout:         layout

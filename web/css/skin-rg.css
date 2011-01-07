@@ -1,0 +1,86 @@
+.jcarousel-skin-ie7 .jcarousel-container {
+	
+}
+
+.jcarousel-skin-ie7 .jcarousel-container-horizontal {
+    width: 646px;
+}
+
+
+.jcarousel-skin-ie7 .jcarousel-clip-horizontal {
+    width:  612px;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item {
+    width: 40px;
+    height: 40px;
+	padding:14px; 
+	
+    
+}
+
+
+
+.jcarousel-skin-ie7 .jcarousel-item:hover {
+    border-color: #808080;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item-horizontal {
+   
+}
+
+.jcarousel-skin-ie7 .jcarousel-item-placeholder {
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-ie7 .jcarousel-next-horizontal {
+	position: absolute;
+    top: 30px;
+    right: 5px;
+    width: 7px;
+    height: 11px;
+    cursor: pointer;
+    background: transparent url(/images/next-horizontal.gif) no-repeat 0 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-next-horizontal:hover {
+    background: transparent url(/images/next-horizontal.gif) no-repeat 0 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-next-horizontal:active {
+    
+}
+
+.jcarousel-skin-ie7 .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-ie7 .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-ie7 .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    width: 7px;
+    height: 14px;
+    cursor: pointer;
+    background: transparent url(/images/prev-horizontal.gif) no-repeat 0 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-prev-horizontal:hover {
+    background: transparent url(/images/prev-horizontal.gif) no-repeat 0 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-prev-horizontal:active {
+   
+}
+
+.jcarousel-skin-ie7 .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-ie7 .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-ie7 .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
