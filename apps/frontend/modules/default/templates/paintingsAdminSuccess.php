@@ -14,5 +14,5 @@
   array('with_new' => true, 'class' => 'paintings', 'sortable' => true),
   'li',
   array('title', 'medium', 'dimensions', 'year', 'thumbnail', 'image'),
-  array('class' => 'header','partial'=>'paintingShow')
+  array('class' => 'header','partial'=>'default/paintingShow')
 ) ?>
