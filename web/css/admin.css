@@ -1,0 +1,51 @@
+h1
+{
+  padding: 20px;
+  width: 400px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+h2
+{
+  clear: both;
+}
+ul
+{
+  width: 400px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  list-style-type: none;
+}
+label
+{
+  color: black;
+}
+.painting
+{
+  padding: 10px;
+  position:relative;
+  border: 1px solid white;
+  width: 400px;
+}
+.painting h2
+{
+  position: absolute;
+  top: 50%;
+  margin-top:-10px;
+  margin-left: 55px;
+  height: 20px;
+  float: left;
+  clear:none;
+}
+.painting img
+{
+  float: left;
+  clear:none;
+}
+
+ul.instructions
+{
+  padding: 20px;
+}

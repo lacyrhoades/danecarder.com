@@ -21,46 +21,52 @@ class defaultActions extends sfActions
   }
 
   public function executePaintings(sfWebRequest $request)
-	{
-		
-	}
+  {
+    $this->paintings = Doctrine_Core::getTable('dcPainting')->fetchSorted()
+->execute();
+    
+    if ($this->getUser()->hasCredential('edit_paintings'))
+    {
+      $this->setTemplate('paintingsAdmin');
+    }
+  }
 
   public function executeDetails(sfWebRequest $request)
-	{
-		$id = $request->getParameter('id');
-		$attr = $request->getParameter('attr');
-		
-		$object = Doctrine_Core::getTable('dcPainting')->find($id);
-		
-		$result = '';
-		
-		if ($attr == 'details')
-		{
-			$result .= $object->dimensions;
-			$result .= "<br/>";
-			$result .= $object->medium;
-			$result .= "<br/>";
-			$result .= $object->year;
-		}
-		else
-		{
-			$attr = 'get'.$attr;
-			$result .= $object->$attr();
-		}
-		
-		$this->renderText($result);
-		
-		return sfView::NONE;
-	}
+  {
+    $id = $request->getParameter('id');
+    $attr = $request->getParameter('attr');
+    
+    $object = Doctrine_Core::getTable('dcPainting')->find($id);
+    
+    $result = '';
+    
+    if ($attr == 'details')
+    {
+      $result .= $object->dimensions;
+      $result .= "<br/>";
+      $result .= $object->medium;
+      $result .= "<br/>";
+      $result .= $object->year;
+    }
+    else
+    {
+      $attr = 'get'.$attr;
+      $result .= $object->$attr();
+    }
+    
+    $this->renderText($result);
+    
+    return sfView::NONE;
+  }
 
   public function executeBio(sfWebRequest $request)
-	{
-		
-	}
+  {
+    
+  }
 
   public function executeContact(sfWebRequest $request)
-	{
-		
-	}
+  {
+    
+  }
 
 }

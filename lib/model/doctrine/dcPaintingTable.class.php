@@ -16,4 +16,9 @@ class dcPaintingTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('dcPainting');
     }
+
+    public function fetchSorted()
+    {
+      return $this->createQuery()->orderBy('position ASC');
+    }
 }

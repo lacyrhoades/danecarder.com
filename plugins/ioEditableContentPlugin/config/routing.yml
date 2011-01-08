@@ -1,0 +1,49 @@
+# route to dynamic css file
+editable_content_admin_css:
+  url:   /css/editable_content.css
+  param: { module: ioEditableContent, action: css, sf_format: css }
+
+# route to dynamic js file
+editable_content_admin_js:
+  url:   /js/editable_content.js
+  param: { module: ioEditableContent, action: js, sf_format: js }
+
+# retrieves the editable form area
+editable_content_service_form:
+  url:   /service/content/form
+  param: { module: ioEditableContent, action: form }
+
+# handles the form submit post
+editable_content_service_update:
+  url:   /service/content/update
+  param: { module: ioEditableContent, action: update }
+  requirements:
+    sf_method:  [put, post]
+
+# render a particular editable content area
+editable_content_service_show:
+  url:   /service/content/show
+  param: { module: ioEditableContent, action: show }
+
+# post here to sort an editable content list
+editable_content_service_list_sort:
+  url:   /service/content/list/sort
+  param:
+    module: ioEditableContent
+    action: sort
+    
+# post here to delete an obj
+editable_content_service_delete:
+  url:   /service/content/delete
+  param:
+    module: ioEditableContent
+    action: delete
+
+editable_content_service_set_column:
+  class: sfRequestRoute
+  url:  /service/content/nullify
+  param:
+    module: ioEditableContent
+    action: setColumn
+  requirements:
+    sf_method:  [put, post]
