@@ -16,9 +16,9 @@ class dcPaintingForm extends BasedcPaintingForm
     $thumb_path = $image_path . '/thumbnails';
     
     $this->widgetSchema['image'] = new sfWidgetFormInputFile(array());
-    $this->validatorSchema['image'] = new sfValidatorFile(array('path'=>$image_path));
+    $this->validatorSchema['image'] = new sfValidatorFile(array('mime_types'=>'web_images','path'=>$image_path));
     
     $this->widgetSchema['thumbnail'] = new sfWidgetFormInputFile(array());
-    $this->validatorSchema['thumbnail'] = new sfValidatorFile(array('path'=>$thumb_path));
+    $this->validatorSchema['thumbnail'] = new sfValidatorFile(array('mime_types'=>'web_images','path'=>$thumb_path));
   }
 }
