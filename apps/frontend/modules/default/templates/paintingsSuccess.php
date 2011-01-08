@@ -4,6 +4,7 @@ function mycarousel_itemFirstInCallback(carousel, item, idx, state) {
     document.getElementById("start").value = idx;
 };
 
+detail_url = '<?php echo url_for('details') ?>';
 
 jQuery(document).ready(function() {
     jQuery('#mycarousel').jcarousel({
@@ -19,7 +20,7 @@ jQuery(document).ready(function() {
       });
       $('#mycarousel a img').removeClass('selected');
       $(this).find('img').addClass('selected');
-      $.get('/paintings/get',{
+      $.get(detail_url,{
           id: $(this).attr('id'),
           attr: 'Title'
         },
@@ -27,7 +28,7 @@ jQuery(document).ready(function() {
           $('p.title').html(data);
         });
         
-      $.get('/paintings/get',{
+      $.get(detail_url,{
           id: $(this).attr('id'),
           attr: 'details'
         },
