@@ -22,8 +22,9 @@ class defaultActions extends sfActions
 
   public function executePaintings(sfWebRequest $request)
   {
-    $this->paintings = Doctrine_Core::getTable('dcPainting')->fetchSorted()
-->execute();
+    $this->paintings = Doctrine_Core::getTable('dcPainting')->fetchSorted()->execute();
+    
+    $this->painting = Doctrine_Core::getTable('dcPainting')->fetchSorted()->fetchOne();
     
     if ($this->getUser()->hasCredential('edit_paintings'))
     {
@@ -65,6 +66,11 @@ class defaultActions extends sfActions
   }
 
   public function executeContact(sfWebRequest $request)
+  {
+    
+  }
+
+  public function executeError404(sfWebRequest $request)
   {
     
   }

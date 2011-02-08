@@ -1,361 +1,253 @@
-# dcPainting:
-#   dcPainting_1:
-#     title: 'A Leader And Others'
-#     medium: 'acrylic on masonite'
-#     dimensions: '4"x6" '
-#     year: '2008'
-#     thumbnail: 36b4e4e43d4ac5a606da853cb83d4755efdac02f.jpg
-#     image: 7be2af776d5d161615786c450e40548a5084d292.jpg
-#     position: '31'
-#     created_at: '2009-07-18 21:38:40'
-#     updated_at: '2009-08-04 20:38:57'
-#   dcPainting_2:
-#     title: 'Battle For Nashville'
-#     medium: 'acrylic on masonite'
-#     dimensions: '5"x7"'
-#     year: '2008'
-#     thumbnail: 35c1a8d50d40fec5a188f868a2e6f08a9ebd93af.jpg
-#     image: 21aefde911fc8631ab5d88b2b8efee7a5e4bb085.jpg
-#     position: '35'
-#     created_at: '2009-07-18 21:41:42'
-#     updated_at: '2009-08-04 20:56:07'
-#   dcPainting_3:
-#     title: 'Battle For Nashville II'
-#     medium: 'acrylic on masonite'
-#     dimensions: '5"x7"'
-#     year: '2009'
-#     thumbnail: 342130f297736c4848df99c7cc75bc10b0c48072.jpg
-#     image: 5c49a5ca3b8efbf6cd67a3aeb68b60d3a5fa2546.jpg
-#     position: '10'
-#     created_at: '2009-07-18 21:43:18'
-#     updated_at: '2009-08-04 20:28:42'
-#   dcPainting_4:
-#     title: Camp
-#     medium: 'acrylic on masonite'
-#     dimensions: '5"x7"'
-#     year: '2009'
-#     thumbnail: be3a24db3ce96ddf7a81d7606f354bdc55dde621.jpg
-#     image: 240e5843f9cf452f7f2f238bbd3a60038835891f.jpg
-#     position: '22'
-#     created_at: '2009-07-18 21:44:42'
-#     updated_at: '2009-08-04 20:34:20'
-#   dcPainting_5:
-#     title: Cannonman
-#     medium: 'acrylic on canvas'
-#     dimensions: '6"x9" '
-#     year: '2007'
-#     thumbnail: 734e2a2ecf2da5201b6a94234a19d715368e4ab0.jpg
-#     image: c88f52e63de31b2ff5645ce86dc4678d6d785d2a.jpg
-#     position: '26'
-#     created_at: '2009-07-18 21:47:26'
-#     updated_at: '2009-09-26 19:47:20'
-#   dcPainting_6:
-#     title: Captured
-#     medium: 'acrylic on masonite'
-#     dimensions: '4"x6"'
-#     year: '2008'
-#     thumbnail: 5d3357dbd502daeebd0ba466131c9fe43c3906af.jpg
-#     image: 84ced4de292b6ba2db7f2e80a846fce56a4b303b.jpg
-#     position: '7'
-#     created_at: '2009-07-18 21:48:06'
-#     updated_at: '2009-08-04 20:27:46'
-#   dcPainting_7:
-#     title: 'For The Cause'
-#     medium: 'acrylic on masonite'
-#     dimensions: '4"x6"'
-#     year: '2008'
-#     thumbnail: 913c68bd66318066bc2ad2137b5953299eb1be51.jpg
-#     image: 9a7dcd594b8c8cfbcea732b065f0f3fafc20cbb9.jpg
-#     position: '5'
-#     created_at: '2009-07-18 21:48:50'
-#     updated_at: '2009-08-04 20:26:58'
-#   dcPainting_8:
-#     title: 'Friend Or Foe'
-#     medium: 'acrylic on masonite'
-#     dimensions: '5"x7"'
-#     year: '2009'
-#     thumbnail: 7600868b1d809dd251387aa310c9cf853d2586bf.jpg
-#     image: 9366873c0821cda285ed43d873448e79c8672653.jpg
-#     position: '9'
-#     created_at: '2009-07-18 21:49:36'
-#     updated_at: '2009-08-04 20:28:18'
-#   dcPainting_9:
-#     title: 'Ghost Of Him'
-#     medium: 'acrylic on masonite'
-#     dimensions: '4"x6"'
-#     year: '2009'
-#     thumbnail: 3dd77b1e5f083d65c949d7e0a19b5b2619496e26.jpg
-#     image: b4a559d5e2e015a0d75c5fd7e8b66b8cc45aecc7.jpg
-#     position: '29'
-#     created_at: '2009-07-18 21:51:54'
-#     updated_at: '2009-08-04 20:37:54'
-#   dcPainting_10:
-#     title: 'In The Midst'
-#     medium: 'acrylic on canvas'
-#     dimensions: '20"x24"'
-#     year: '2007'
-#     thumbnail: 0290d1ecfb2e5b67c03e0db0a95afa23d012758a.jpg
-#     image: 3cde85970c967143078dc594b4615fa824fb05da.jpg
-#     position: '2'
-#     created_at: '2009-07-18 21:53:51'
-#     updated_at: '2009-08-04 20:25:31'
-#   dcPainting_11:
-#     title: Jeb
-#     medium: 'acrylic on canvas'
-#     dimensions: '8"x10"'
-#     year: '2007'
-#     thumbnail: d0d85fc8c6e7795bbb30993a0f93da56aad157b1.jpg
-#     image: 20c91a794cad1da4c0454729ef5b11d596a25097.jpg
-#     position: '24'
-#     created_at: '2009-07-18 21:54:31'
-#     updated_at: '2009-08-04 20:35:32'
-#   dcPainting_12:
-#     title: 'Life Goes On'
-#     medium: 'acrylic on masonite'
-#     dimensions: '8"x12"'
-#     year: '2009'
-#     thumbnail: c846b9e61eb100c32229a616c127b34a85523d00.jpg
-#     image: 804d29d758d895fdf6facbc55595e57eb3fbeb37.jpg
-#     position: '8'
-#     created_at: '2009-07-18 22:06:21'
-#     updated_at: '2009-08-04 20:28:04'
-#   dcPainting_13:
-#     title: Medicine
-#     medium: 'acrylic on canvas'
-#     dimensions: '6"x9" '
-#     year: '2007'
-#     thumbnail: 738adbabab1ae6dc902948c0d671ae889d9e25cc.jpg
-#     image: 0ba7292455b0fd97196068adcfc0afda5024bae5.jpg
-#     position: '16'
-#     created_at: '2009-07-18 22:06:50'
-#     updated_at: '2009-08-04 20:31:22'
-#   dcPainting_14:
-#     title: 'Not Done Yet'
-#     medium: 'acrylic on masonite'
-#     dimensions: '8"x12"'
-#     year: '2009'
-#     thumbnail: 8744a7b0907e98303ee59cd96e792e9df396b545.jpg
-#     image: 9ed0b01d12eb6dea6fc52f7844a5806ce7b8d65a.jpg
-#     position: '17'
-#     created_at: '2009-07-18 22:08:04'
-#     updated_at: '2009-08-04 20:31:43'
-#   dcPainting_15:
-#     title: Nurse
-#     medium: 'acrylic on masonite'
-#     dimensions: '8"x12"'
-#     year: '2009'
-#     thumbnail: 732e76bb67ba2c649984575619ccc333e4f78518.jpg
-#     image: 9c7f66366a38c821cc5e8b1b868cd083b9d5535c.jpg
-#     position: '14'
-#     created_at: '2009-07-18 22:08:43'
-#     updated_at: '2009-08-04 20:30:32'
-#   dcPainting_16:
-#     title: 'Prisoners Under Guard'
-#     medium: 'acrylic on canvas'
-#     dimensions: '9"x12"'
-#     year: '2007'
-#     thumbnail: f0790666360a120d4e8f2f4750d031ef65cae148.jpg
-#     image: e71fdeb83aeebba35e40dc2ce1db3df04f4011df.jpg
-#     position: '0'
-#     created_at: '2009-07-18 22:10:20'
-#     updated_at: '2009-08-04 20:24:27'
-#   dcPainting_17:
-#     title: Ready
-#     medium: 'acrylic on masonite'
-#     dimensions: '5"x7"'
-#     year: '2008'
-#     thumbnail: be0ec46c6fe68c3d2006c3c241b9bfe592c9d90d.jpg
-#     image: b7c4e9521833a975c58f125722a9d8ee96c5d3f9.jpg
-#     position: '25'
-#     created_at: '2009-07-18 22:12:38'
-#     updated_at: '2009-08-04 20:35:55'
-#   dcPainting_18:
-#     title: 'Soldier Boy'
-#     medium: 'acrylic on canvas'
-#     dimensions: '12"x16"'
-#     year: '2007'
-#     thumbnail: 7b7e9b2dadec0d53d082dd8a95f64decca9a98b1.jpg
-#     image: dc86d2a721e100659d2424f9c1d6e03ee4ca8b68.jpg
-#     position: '1'
-#     created_at: '2009-07-18 22:14:27'
-#     updated_at: '2009-08-04 20:24:50'
-#   dcPainting_19:
-#     title: Spotters
-#     medium: 'acrylic on canvas'
-#     dimensions: '18"x24"'
-#     year: '2007'
-#     thumbnail: ab7f7939b8821041d266a9209276887d435f2a9c.jpg
-#     image: 18ab42c8f68c2b3507bf39a3cd718fb9851a72b1.jpg
-#     position: '23'
-#     created_at: '2009-07-18 22:15:13'
-#     updated_at: '2009-08-04 20:34:56'
-#   dcPainting_20:
-#     title: St.
-#     medium: 'acrylic on canvas'
-#     dimensions: '28"x36"'
-#     year: '2009'
-#     thumbnail: 99fbef28b449498ed1374d8d42e45e787b7139c9.jpg
-#     image: 76d32ab88947e72919f4027d39320c8b1def5870.jpg
-#     position: '19'
-#     created_at: '2009-07-18 22:15:57'
-#     updated_at: '2009-08-04 20:32:24'
-#   dcPainting_21:
-#     title: 'Them Or Us'
-#     medium: 'acrylic on canvas'
-#     dimensions: '36"x48"'
-#     year: '2007'
-#     thumbnail: 67dced63d7bc8212cb1e587d73fc643e8afa7cf0.jpg
-#     image: ce7b0cf19b39bc35616fa3cd0f52cb5c883d12c1.jpg
-#     position: '13'
-#     created_at: '2009-07-18 22:16:35'
-#     updated_at: '2009-08-04 20:29:58'
-#   dcPainting_22:
-#     title: 'Under The Flag'
-#     medium: 'acrylic on masonite'
-#     dimensions: '5"x7"'
-#     year: '2009'
-#     thumbnail: b10d72ff4c2b94a5e011fd8c80f48f510ef02d60.jpg
-#     image: 55b6ac8d973d469d60c40272dade19f14eab5739.jpg
-#     position: '20'
-#     created_at: '2009-07-18 22:17:11'
-#     updated_at: '2009-08-04 20:32:46'
-#   dcPainting_23:
-#     title: 'Us Or Them'
-#     medium: 'acrylic on canvas'
-#     dimensions: '36"x48"'
-#     year: '2007'
-#     thumbnail: 4e2fdb004129875bce9c1c64c6765451db58550b.jpg
-#     image: 5697dd10f478ce4f881edec202ae7c28cccf826b.jpg
-#     position: '27'
-#     created_at: '2009-07-18 22:17:49'
-#     updated_at: '2009-08-04 20:36:59'
-#   dcPainting_24:
-#     title: 'Which Side Are They On?'
-#     medium: 'acrylic on masonite'
-#     dimensions: '4"x6"'
-#     year: '2009'
-#     thumbnail: 1b1a8773fa4da224a5de6101173266893192ddd5.jpg
-#     image: 38155a2777000c0bed23e17ccca340817655f399.jpg
-#     position: '34'
-#     created_at: '2009-07-18 22:18:32'
-#     updated_at: '2009-08-04 20:55:42'
-#   dcPainting_25:
-#     title: Willing
-#     medium: 'acrylic on canvas'
-#     dimensions: '12"x12"'
-#     year: '2007'
-#     thumbnail: 4787fccaaa94256ab081b05ff533de9bd1e4ccc7.jpg
-#     image: a545c8ad756086d625f71a77d1e451aaeb111949.jpg
-#     position: '6'
-#     created_at: '2009-07-18 22:43:14'
-#     updated_at: '2009-08-04 20:27:23'
-#   dcPainting_26:
-#     title: 'With Their Swords'
-#     medium: 'acrylic on canvas'
-#     dimensions: '18"x18"'
-#     year: '2007'
-#     thumbnail: 6dada49a10002f998cf3b8b42bb750b2f15edd14.jpg
-#     image: 97dd4d3aca21b9e0d7e7e7c9adc3ea3191ac8fde.jpg
-#     position: '30'
-#     created_at: '2009-07-18 22:44:00'
-#     updated_at: '2009-08-04 20:38:32'
-#   dcPainting_27:
-#     title: 'Wounded no. 000192 '
-#     medium: 'acrylic on paper'
-#     dimensions: '8"x12"'
-#     year: '2008'
-#     thumbnail: 19bb90615f6b468b4fcbab9c119789be496082e3.jpg
-#     image: 2b19756a8cf2c2bafbe109d3ab6654995bdc4c5d.jpg
-#     position: '4'
-#     created_at: '2009-07-18 22:45:59'
-#     updated_at: '2009-08-04 20:26:34'
-#   dcPainting_28:
-#     title: 'Wounded no. 000203'
-#     medium: 'acrylic on paper'
-#     dimensions: '8"x12"'
-#     year: '2008'
-#     thumbnail: dc77fca112ae70056af25aabe0e0a5119fc8c304.jpg
-#     image: 9c54a230022f50d5f5604f18d35ee8753c539f17.jpg
-#     position: '18'
-#     created_at: '2009-07-18 22:48:00'
-#     updated_at: '2009-08-04 20:32:05'
-#   dcPainting_29:
-#     title: 'Wounded no. 000262-2'
-#     medium: 'acrylic on masonite'
-#     dimensions: '4"x6"'
-#     year: '2008'
-#     thumbnail: f55d95ec6519729301a93280d67b452da439abc7.jpg
-#     image: e84893fc4dbc7abb97d04101dfc829a8a659f2db.jpg
-#     position: '33'
-#     created_at: '2009-07-26 12:49:40'
-#     updated_at: '2009-08-04 20:55:08'
-#   dcPainting_30:
-#     title: 'Wounded no. 000339'
-#     medium: 'acrylic on paper'
-#     dimensions: '8"x12"'
-#     year: '2008'
-#     thumbnail: 44d3b7d4fbd2201e3f8819b19665b7851ba521fd.jpg
-#     image: 7cbd492b757087534a659ae05f63c923dc5e6cd7.jpg
-#     position: '28'
-#     created_at: '2009-07-26 12:54:16'
-#     updated_at: '2009-08-04 20:37:22'
-#   dcPainting_31:
-#     title: 'Wounded no. 000347'
-#     medium: 'acrylic on paper'
-#     dimensions: '8"x12"'
-#     year: '2008'
-#     thumbnail: a1a0566d2e90b56a2968405897db0d544d8105a3.jpg
-#     image: f3cbaf86667166f43505c1d66934d5ca7cd7a53b.jpg
-#     position: '12'
-#     created_at: '2009-07-26 12:56:43'
-#     updated_at: '2009-08-04 20:29:34'
-#   dcPainting_32:
-#     title: 'Wounded no. 000417'
-#     medium: 'acrylic on paper'
-#     dimensions: '8"x12"'
-#     year: '2008'
-#     thumbnail: 197702482af1397cdd3a15b22621f4d833725a64.jpg
-#     image: 4bc3500e4dbc44a7fd355c92980fd16cc5b64823.jpg
-#     position: '15'
-#     created_at: '2009-07-26 12:57:47'
-#     updated_at: '2009-08-04 20:31:00'
-#   dcPainting_33:
-#     title: Respite
-#     medium: 'acrylic on masonite'
-#     dimensions: '5"x7"'
-#     year: '2008'
-#     thumbnail: b0107c45620edc6c4c631b7e1f087974a4f4c0d8.jpg
-#     image: 757845f40733ad8eda86f9be654c97561fa50c1d.jpg
-#     position: '11'
-#     created_at: '2009-07-26 17:38:18'
-#     updated_at: '2009-08-04 20:29:11'
-#   dcPainting_34:
-#     title: Prepped
-#     medium: 'acrylic on masonite'
-#     dimensions: '5"x7"'
-#     year: '2009'
-#     thumbnail: 14748def03896515cc0b18776f8dd6b56327527c.jpg
-#     image: 273be1575c9300308c34b25b2962adfbe53eb85f.jpg
-#     position: '3'
-#     created_at: '2009-07-26 17:39:14'
-#     updated_at: '2009-08-04 20:26:11'
-#   dcPainting_35:
-#     title: 'Three Fighting For'
-#     medium: 'acrylic on canvas'
-#     dimensions: '16"x16"'
-#     year: '2007'
-#     thumbnail: 8da5785699930a71ee399edf26e3a1dff8861a5b.jpg
-#     image: 67766fada81740b744c6164cebdefb5759f60cb7.jpg
-#     position: '21'
-#     created_at: '2009-07-26 17:41:50'
-#     updated_at: '2009-08-04 20:33:19'
-#   dcPainting_36:
-#     title: 'Two For Them'
-#     medium: 'acrylic on masonite'
-#     dimensions: '4"x6"'
-#     year: '2009'
-#     thumbnail: 7dec52b7a879a4b18b8e70e255cd2f3f1d3bbdd5.jpg
-#     image: b9901f313777397e7cda8a9f028f177bbff63846.jpg
-#     position: '32'
-#     created_at: '2009-07-26 17:42:41'
-#     updated_at: '2009-08-04 20:41:16'
+dcPainting:
+  dcPainting1:
+    title: 'A Leader And Others'
+    medium: 'acrylic on masonite'
+    dimensions: '4"x6" '
+    year: '2008'
+    thumbnail: 36b4e4e43d4ac5a606da853cb83d4755efdac02f.jpg
+    image: 7be2af776d5d161615786c450e40548a5084d292.jpg
+  dcPainting_2:
+    title: 'Battle For Nashville'
+    medium: 'acrylic on masonite'
+    dimensions: '5"x7"'
+    year: '2008'
+    thumbnail: 35c1a8d50d40fec5a188f868a2e6f08a9ebd93af.jpg
+    image: 21aefde911fc8631ab5d88b2b8efee7a5e4bb085.jpg
+  dcPainting_3:
+    title: 'Battle For Nashville II'
+    medium: 'acrylic on masonite'
+    dimensions: '5"x7"'
+    year: '2009'
+    thumbnail: 342130f297736c4848df99c7cc75bc10b0c48072.jpg
+    image: 5c49a5ca3b8efbf6cd67a3aeb68b60d3a5fa2546.jpg
+  dcPainting_4:
+    title: Camp
+    medium: 'acrylic on masonite'
+    dimensions: '5"x7"'
+    year: '2009'
+    thumbnail: be3a24db3ce96ddf7a81d7606f354bdc55dde621.jpg
+    image: 240e5843f9cf452f7f2f238bbd3a60038835891f.jpg
+  dcPainting_5:
+    title: Cannonman
+    medium: 'acrylic on canvas'
+    dimensions: '6"x9" '
+    year: '2007'
+    thumbnail: 734e2a2ecf2da5201b6a94234a19d715368e4ab0.jpg
+    image: c88f52e63de31b2ff5645ce86dc4678d6d785d2a.jpg
+  dcPainting_6:
+    title: Captured
+    medium: 'acrylic on masonite'
+    dimensions: '4"x6"'
+    year: '2008'
+    thumbnail: 5d3357dbd502daeebd0ba466131c9fe43c3906af.jpg
+    image: 84ced4de292b6ba2db7f2e80a846fce56a4b303b.jpg
+  dcPainting_7:
+    title: 'For The Cause'
+    medium: 'acrylic on masonite'
+    dimensions: '4"x6"'
+    year: '2008'
+    thumbnail: 913c68bd66318066bc2ad2137b5953299eb1be51.jpg
+    image: 9a7dcd594b8c8cfbcea732b065f0f3fafc20cbb9.jpg
+  dcPainting_8:
+    title: 'Friend Or Foe'
+    medium: 'acrylic on masonite'
+    dimensions: '5"x7"'
+    year: '2009'
+    thumbnail: 7600868b1d809dd251387aa310c9cf853d2586bf.jpg
+    image: 9366873c0821cda285ed43d873448e79c8672653.jpg
+  dcPainting_9:
+    title: 'Ghost Of Him'
+    medium: 'acrylic on masonite'
+    dimensions: '4"x6"'
+    year: '2009'
+    thumbnail: 3dd77b1e5f083d65c949d7e0a19b5b2619496e26.jpg
+    image: b4a559d5e2e015a0d75c5fd7e8b66b8cc45aecc7.jpg
+  dcPainting_10:
+    title: 'In The Midst'
+    medium: 'acrylic on canvas'
+    dimensions: '20"x24"'
+    year: '2007'
+    thumbnail: 0290d1ecfb2e5b67c03e0db0a95afa23d012758a.jpg
+    image: 3cde85970c967143078dc594b4615fa824fb05da.jpg
+  dcPainting_11:
+    title: Jeb
+    medium: 'acrylic on canvas'
+    dimensions: '8"x10"'
+    year: '2007'
+    thumbnail: d0d85fc8c6e7795bbb30993a0f93da56aad157b1.jpg
+    image: 20c91a794cad1da4c0454729ef5b11d596a25097.jpg
+  dcPainting_12:
+    title: 'Life Goes On'
+    medium: 'acrylic on masonite'
+    dimensions: '8"x12"'
+    year: '2009'
+    thumbnail: c846b9e61eb100c32229a616c127b34a85523d00.jpg
+    image: 804d29d758d895fdf6facbc55595e57eb3fbeb37.jpg
+  dcPainting_13:
+    title: Medicine
+    medium: 'acrylic on canvas'
+    dimensions: '6"x9" '
+    year: '2007'
+    thumbnail: 738adbabab1ae6dc902948c0d671ae889d9e25cc.jpg
+    image: 0ba7292455b0fd97196068adcfc0afda5024bae5.jpg
+  dcPainting_14:
+    title: 'Not Done Yet'
+    medium: 'acrylic on masonite'
+    dimensions: '8"x12"'
+    year: '2009'
+    thumbnail: 8744a7b0907e98303ee59cd96e792e9df396b545.jpg
+    image: 9ed0b01d12eb6dea6fc52f7844a5806ce7b8d65a.jpg
+  dcPainting_15:
+    title: Nurse
+    medium: 'acrylic on masonite'
+    dimensions: '8"x12"'
+    year: '2009'
+    thumbnail: 732e76bb67ba2c649984575619ccc333e4f78518.jpg
+    image: 9c7f66366a38c821cc5e8b1b868cd083b9d5535c.jpg
+  dcPainting_16:
+    title: 'Prisoners Under Guard'
+    medium: 'acrylic on canvas'
+    dimensions: '9"x12"'
+    year: '2007'
+    thumbnail: f0790666360a120d4e8f2f4750d031ef65cae148.jpg
+    image: e71fdeb83aeebba35e40dc2ce1db3df04f4011df.jpg
+  dcPainting_17:
+    title: Ready
+    medium: 'acrylic on masonite'
+    dimensions: '5"x7"'
+    year: '2008'
+    thumbnail: be0ec46c6fe68c3d2006c3c241b9bfe592c9d90d.jpg
+    image: b7c4e9521833a975c58f125722a9d8ee96c5d3f9.jpg
+  dcPainting_18:
+    title: 'Soldier Boy'
+    medium: 'acrylic on canvas'
+    dimensions: '12"x16"'
+    year: '2007'
+    thumbnail: 7b7e9b2dadec0d53d082dd8a95f64decca9a98b1.jpg
+    image: dc86d2a721e100659d2424f9c1d6e03ee4ca8b68.jpg
+  dcPainting_19:
+    title: Spotters
+    medium: 'acrylic on canvas'
+    dimensions: '18"x24"'
+    year: '2007'
+    thumbnail: ab7f7939b8821041d266a9209276887d435f2a9c.jpg
+    image: 18ab42c8f68c2b3507bf39a3cd718fb9851a72b1.jpg
+  dcPainting_20:
+    title: St.
+    medium: 'acrylic on canvas'
+    dimensions: '28"x36"'
+    year: '2009'
+    thumbnail: 99fbef28b449498ed1374d8d42e45e787b7139c9.jpg
+    image: 76d32ab88947e72919f4027d39320c8b1def5870.jpg
+  dcPainting_21:
+    title: 'Them Or Us'
+    medium: 'acrylic on canvas'
+    dimensions: '36"x48"'
+    year: '2007'
+    thumbnail: 67dced63d7bc8212cb1e587d73fc643e8afa7cf0.jpg
+    image: ce7b0cf19b39bc35616fa3cd0f52cb5c883d12c1.jpg
+  dcPainting_22:
+    title: 'Under The Flag'
+    medium: 'acrylic on masonite'
+    dimensions: '5"x7"'
+    year: '2009'
+    thumbnail: b10d72ff4c2b94a5e011fd8c80f48f510ef02d60.jpg
+    image: 55b6ac8d973d469d60c40272dade19f14eab5739.jpg
+  dcPainting_23:
+    title: 'Us Or Them'
+    medium: 'acrylic on canvas'
+    dimensions: '36"x48"'
+    year: '2007'
+    thumbnail: 4e2fdb004129875bce9c1c64c6765451db58550b.jpg
+    image: 5697dd10f478ce4f881edec202ae7c28cccf826b.jpg
+  dcPainting_24:
+    title: 'Which Side Are They On?'
+    medium: 'acrylic on masonite'
+    dimensions: '4"x6"'
+    year: '2009'
+    thumbnail: 1b1a8773fa4da224a5de6101173266893192ddd5.jpg
+    image: 38155a2777000c0bed23e17ccca340817655f399.jpg
+  dcPainting_25:
+    title: Willing
+    medium: 'acrylic on canvas'
+    dimensions: '12"x12"'
+    year: '2007'
+    thumbnail: 4787fccaaa94256ab081b05ff533de9bd1e4ccc7.jpg
+    image: a545c8ad756086d625f71a77d1e451aaeb111949.jpg
+  dcPainting_26:
+    title: 'With Their Swords'
+    medium: 'acrylic on canvas'
+    dimensions: '18"x18"'
+    year: '2007'
+    thumbnail: 6dada49a10002f998cf3b8b42bb750b2f15edd14.jpg
+    image: 97dd4d3aca21b9e0d7e7e7c9adc3ea3191ac8fde.jpg
+  dcPainting_27:
+    title: 'Wounded no. 000192 '
+    medium: 'acrylic on paper'
+    dimensions: '8"x12"'
+    year: '2008'
+    thumbnail: 19bb90615f6b468b4fcbab9c119789be496082e3.jpg
+    image: 2b19756a8cf2c2bafbe109d3ab6654995bdc4c5d.jpg
+  dcPainting_28:
+    title: 'Wounded no. 000203'
+    medium: 'acrylic on paper'
+    dimensions: '8"x12"'
+    year: '2008'
+    thumbnail: dc77fca112ae70056af25aabe0e0a5119fc8c304.jpg
+    image: 9c54a230022f50d5f5604f18d35ee8753c539f17.jpg
+  dcPainting_29:
+    title: 'Wounded no. 000262-2'
+    medium: 'acrylic on masonite'
+    dimensions: '4"x6"'
+    year: '2008'
+    thumbnail: f55d95ec6519729301a93280d67b452da439abc7.jpg
+    image: e84893fc4dbc7abb97d04101dfc829a8a659f2db.jpg
+  dcPainting_30:
+    title: 'Wounded no. 000339'
+    medium: 'acrylic on paper'
+    dimensions: '8"x12"'
+    year: '2008'
+    thumbnail: 44d3b7d4fbd2201e3f8819b19665b7851ba521fd.jpg
+    image: 7cbd492b757087534a659ae05f63c923dc5e6cd7.jpg
+  dcPainting_31:
+    title: 'Wounded no. 000347'
+    medium: 'acrylic on paper'
+    dimensions: '8"x12"'
+    year: '2008'
+    thumbnail: a1a0566d2e90b56a2968405897db0d544d8105a3.jpg
+    image: f3cbaf86667166f43505c1d66934d5ca7cd7a53b.jpg
+  dcPainting_32:
+    title: 'Wounded no. 000417'
+    medium: 'acrylic on paper'
+    dimensions: '8"x12"'
+    year: '2008'
+    thumbnail: 197702482af1397cdd3a15b22621f4d833725a64.jpg
+    image: 4bc3500e4dbc44a7fd355c92980fd16cc5b64823.jpg
+  dcPainting_33:
+    title: Respite
+    medium: 'acrylic on masonite'
+    dimensions: '5"x7"'
+    year: '2008'
+    thumbnail: b0107c45620edc6c4c631b7e1f087974a4f4c0d8.jpg
+    image: 757845f40733ad8eda86f9be654c97561fa50c1d.jpg
+  dcPainting_34:
+    title: Prepped
+    medium: 'acrylic on masonite'
+    dimensions: '5"x7"'
+    year: '2009'
+    thumbnail: 14748def03896515cc0b18776f8dd6b56327527c.jpg
+    image: 273be1575c9300308c34b25b2962adfbe53eb85f.jpg
+  dcPainting_35:
+    title: 'Three Fighting For'
+    medium: 'acrylic on canvas'
+    dimensions: '16"x16"'
+    year: '2007'
+    thumbnail: 8da5785699930a71ee399edf26e3a1dff8861a5b.jpg
+    image: 67766fada81740b744c6164cebdefb5759f60cb7.jpg
+  dcPainting_36:
+    title: 'Two For Them'
+    medium: 'acrylic on masonite'
+    dimensions: '4"x6"'
+    year: '2009'
+    thumbnail: 7dec52b7a879a4b18b8e70e255cd2f3f1d3bbdd5.jpg
+    image: b9901f313777397e7cda8a9f028f177bbff63846.jpg

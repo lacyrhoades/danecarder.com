@@ -13,7 +13,6 @@ abstract class BasedcPaintingFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'id'         => new sfWidgetFormFilterInput(),
       'title'      => new sfWidgetFormFilterInput(),
       'medium'     => new sfWidgetFormFilterInput(),
       'dimensions' => new sfWidgetFormFilterInput(),
@@ -26,7 +25,6 @@ abstract class BasedcPaintingFormFilter extends BaseFormFilterDoctrine
     ));
 
     $this->setValidators(array(
-      'id'         => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'title'      => new sfValidatorPass(array('required' => false)),
       'medium'     => new sfValidatorPass(array('required' => false)),
       'dimensions' => new sfValidatorPass(array('required' => false)),

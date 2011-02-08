@@ -1,5 +1,4 @@
-
-    <table width="1000" border="0" cellspacing="0" cellpadding="0">
+<table width="1000" border="0" cellspacing="0" cellpadding="0">
   <tr>
   <td width="225" valign="top" class="details"><p><a href="/home"><img src="/images/danecarder.gif" alt="Dane Carder" width="175" height="34" border="0" /></a></p>
       <p class="title">&nbsp;</p>
@@ -16,13 +15,6 @@
 	<p>There is an intimate connection to humanity born when one honestly deals with death.  This series of paintings is part of my process, my war against war.  This is my way to dispel ghosts.  This is how I hope. </p></div>
 
     </td>
-</table><table width="1000" border="0" cellspacing="0" cellpadding="0">
-  <tr height="30">
-    <td width="225"></td>
-    <td align="center" valign="top">  <p class="nav">
-	<a href="/bio" class="nav" >bio</a> &nbsp;&nbsp;  | &nbsp; 
-	<a href="/paintings" class="nav">paintings</a> &nbsp;  | &nbsp; 
-	<a href="http://threesquaredisnine.blogspot.com/" target="_blank" class="nav">threesquared</a> &nbsp;  |  &nbsp; 
-	<a href="/contact" class="nav">contact</a></p></td>
-  </tr>
-  </table>
+</table>
+
+<?php include_partial('default/footer') ?>

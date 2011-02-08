@@ -15,7 +15,7 @@ abstract class BasedcPaintingForm extends BaseFormDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'id'         => new sfWidgetFormInputText(),
+      'id'         => new sfWidgetFormInputHidden(),
       'title'      => new sfWidgetFormInputText(),
       'medium'     => new sfWidgetFormInputText(),
       'dimensions' => new sfWidgetFormInputText(),
@@ -28,7 +28,7 @@ abstract class BasedcPaintingForm extends BaseFormDoctrine
     ));
 
     $this->setValidators(array(
-      'id'         => new sfValidatorInteger(array('required' => false)),
+      'id'         => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'title'      => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'medium'     => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'dimensions' => new sfValidatorString(array('max_length' => 255, 'required' => false)),

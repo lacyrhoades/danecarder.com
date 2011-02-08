@@ -1,6 +1,5 @@
 dcPainting:
   columns:
-    id: integer(2)
     title: string(255)
     medium: string(255)
     dimensions: string(255)
