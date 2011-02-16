@@ -3,16 +3,11 @@
 
   // nasty javascript, works for now
 
-function mycarousel_itemFirstInCallback(carousel, item, idx, state) {
-    document.getElementById("start").value = idx;
-};
-
 detail_url = '<?php echo url_for('details') ?>';
 
 jQuery(document).ready(function() {
     jQuery('#mycarousel').jcarousel({
-        start: 1,
-        itemFirstInCallback:  mycarousel_itemFirstInCallback
+        start: 1
     });
     
     jQuery('a.navthumb').click(function () {

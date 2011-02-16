@@ -12,4 +12,52 @@
  */
 class dcPainting extends BasedcPainting
 {
+  public function postSave($event)
+  {
+    $obj = $event->getInvoker();
+    
+    $image_filename = sfConfig::get('sf_upload_dir').'/'.$obj->image;
+    $thumb_filename = sfConfig::get('sf_upload_dir').'/thumbnails/'.$obj->thumbnail;
+    
+    if (is_file($image_filename))
+    {
+      // resize image if necessary
+    }
+    
+    if (is_file($thumb_filename))
+    {
+      $img = new sfImage($thumb_filename);
+      $x = $img->getWidth();
+      $y = $img->getHeight();
+
+      // check the dimensions (should be 40x40)
+      if ($y > 40 && $x > 40)
+      {
+        if (img_is_tall($img))
+        {
+          $img->resize(40,0);
+        }
+        else
+        {
+          $img->resize(0,40, true, true);
+        }
+
+        $img->crop(null, null, 40, 40)->save();
+        $img->save();
+      }
+    }
+  }
+}
+
+function img_is_tall(sfImage $img)
+{
+  $x = $img->getWidth();
+  $y = $img->getHeight();
+
+  if ($x > $y)
+  {
+    return false;
+  }
+
+  return true;
 }
