@@ -21,7 +21,22 @@ class dcPainting extends BasedcPainting
     
     if (is_file($image_filename))
     {
-      // resize image if necessary
+      $img = new sfImage($image_filename);
+      $x = $img->getWidth();
+      $y = $img->getHeight();
+      if ($y > 475 || $x > 575)
+      {
+        if (img_is_tall($img))
+        {
+          $img->resize(475,0, true, true);
+        }
+        else
+        {
+          $img->resize(0,575, true, true);
+        }
+        
+        $img->save();
+      }
     }
     
     if (is_file($thumb_filename))
@@ -35,14 +50,14 @@ class dcPainting extends BasedcPainting
       {
         if (img_is_tall($img))
         {
-          $img->resize(40,0);
+          $img->resize(40,0, true, true);
         }
         else
         {
           $img->resize(0,40, true, true);
         }
 
-        $img->crop(null, null, 40, 40)->save();
+        $img->crop(null, null, 40, 40);
         $img->save();
       }
     }
