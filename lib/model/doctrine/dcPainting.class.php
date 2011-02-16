@@ -28,11 +28,11 @@ class dcPainting extends BasedcPainting
       {
         if (img_is_tall($img))
         {
-          $img->resize(475,0, true, true);
+          $img->resize(0, 475, true, true);
         }
         else
         {
-          $img->resize(0,575, true, true);
+          $img->resize(575, 0, true, true);
         }
         
         $img->save();
