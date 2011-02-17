@@ -11,7 +11,7 @@
 <?php echo editable_content_list(
   'ul',
   $paintings,
-  array('with_new' => true, 'class' => 'paintings', 'sortable' => true),
+  array('with_new' => true, 'class' => 'paintings', 'sortable' => true, 'with_delete'=>true),
   'li',
   array('title', 'medium', 'dimensions', 'year', 'thumbnail', 'image'),
   array('class' => 'header','partial'=>'default/paintingShow')
