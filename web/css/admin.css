@@ -49,3 +49,8 @@ ul.instructions
 {
   padding: 20px;
 }
+
+a.editable_delete_link
+{
+  z-index: 500;
+}
