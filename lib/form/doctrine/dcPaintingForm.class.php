@@ -12,6 +12,8 @@ class dcPaintingForm extends BasedcPaintingForm
 {
   public function configure()
   {
+    $this->useFields(array('title', 'medium', 'dimensions', 'year', 'thumbnail', 'image'));
+    
     $image_path = sfConfig::get('sf_upload_dir');
     $thumb_path = $image_path . '/thumbnails';
     
