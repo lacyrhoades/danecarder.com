@@ -1,13 +1,12 @@
 
 <script type="text/javascript">
 
-  // nasty javascript, works for now
-
 detail_url = '<?php echo url_for('details') ?>';
 
 jQuery(document).ready(function() {
     jQuery('#mycarousel').jcarousel({
-        start: 1
+        start: 1,
+        scroll: 9
     });
     
     jQuery('a.navthumb').click(function () {
@@ -40,7 +39,7 @@ jQuery(document).ready(function() {
 
 
   <table width="1000" border="0" cellspacing="0" cellpadding="0" height="600">
-    <tr height="500" >
+    <tr style="height: 500px">
       <td width="225"valign="top" class="details"><p><a href="/home"><img src="/images/danecarder.gif" alt="Dane Carder" width="175" height="34" border="0" /></a></p>
         <br />
         <br />

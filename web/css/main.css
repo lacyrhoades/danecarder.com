@@ -24,7 +24,7 @@ a:visited {color:#666; text-decoration: none; }
 .details {padding-left:50px; padding-top:225px;}
 .details p {font-size:11px}
 
-.art img { padding: 20px; } 
+.art img { padding: 20px; max-height: 450px; } 
 
 .cms {color:#C2C1C1;}
 
